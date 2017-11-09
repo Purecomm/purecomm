@@ -1,0 +1,72 @@
+{
+  "NAVIGATION_HOMEPAGE": "Home",
+
+  "NAVIGATION_SOLUTIONS": "Our Solutions",
+  "NAVIGATION_CLICK_COLLECT": "Click & Collect",
+  "NAVIGATION_STORE_RETURNS": "In-store Returns",
+  "NAVIGATION_ENDLESS_AISLE": "Endless Aisle",
+  "NAVIGATION_STORE_FULFILMENT": "Store Fulfilment",
+  "NAVIGATION_CUSTOMER_CARE": "Customer Care",
+  "NAVIGATION_PARTNER_FULFILMENT": "Partner Fulfilment",
+
+  "NAVIGATION_WORK": "The Way We Work",
+  "NAVIGATION_SOFTWARE_SERVICE": "Software as a Service",
+  "NAVIGATION_BEST_PRACTICE": "Delivering Best Practice",
+  "NAVIGATION_REUSABLE_INTEGRATIONS": "Reusable Integrations",
+  "NAVIGATION_PARTNER_COLLABORATION": "Partner Collaboration", 
+  "NAVIGATION_SHARING_SUCCESS": "Sharing Success", 
+  "NAVIGATION_VALUES": "Living Our Values",
+  
+  "NAVIGATION_CONTACT": "Contact Us",
+
+  "NAVIGATION_EN": "ENG",
+  "NAVIGATION_HK": "廣東話", 
+  "NAVIGATION_JA": "日本語", 
+  "NAVIGATION_KO": "한국어", 
+  "NAVIGATION_CN": "官话", 
+  "NAVIGATION_TH": "ภาษาไทย", 
+
+  "HOME_CAROUSEL_1H": "Omnichannel",
+  "HOME_CAROUSEL_1H_2":"Order Management",
+  "HOME_CAROUSEL_1H_3":"For Asia Pacific",
+  "HOME_CAROUSEL_1P": "Leading retailers use Purecomm to deliver an omni-channel customer experience across Asia Pacific.",
+  "HOME_CAROUSEL_2H": "Creating Retail Fusion", 
+  "HOME_CAROUSEL_2H_2": "Online and Offline",
+  "HOME_CAROUSEL_2P": "Purecomm solutions bring digital teams and traditional retail teams together; collaborating to deliver a better customer experience.", 
+  "HOME_CAROUSEL_3H": "Simple on the Outside", 
+  "HOME_CAROUSEL_3H_2": "Smart on the Inside", 
+  "HOME_CAROUSEL_3P": "Purecomm solutions take just minutes to master, but guide a sophisticated workflow that delivers a flawless customer experience.",
+
+  "HOME_BENEFITS_1H": "Margin Optimization", 
+  "HOME_BENEFITS_1P": "Drive full-price sell-tgrough by offering every product through every channel.",
+  "HOME_BENEFITS_1P-2": "Reduce returns processing time.",
+
+  "HOME_BENEFITS_2H": "Service Enhancements", 
+  "HOME_BENEFITS_2P": "Boost online conversation by offering more convenient delivery options.", 
+  "HOME_BENEFITS_2P-2": "Drive loyalty and repeat purchase by consistently delivering on promise.",
+
+  "HOME_BENEFITS_3H": "Cost Reudction", 
+  "HOME_BENEFITS_3P": "Select lowest-cost fulfillment routes.", 
+  "HOME_BENEFITS_3P_2": "Improve process efficiency.", 
+
+  "HOME_SOLUTIONS_TITLE_1": "Solutions that bring", 
+  "HOME_SOLUTIONS_TITLE_2": "people together",
+  "HOME_SOLUTIONS_BODY": "Purecomm provides simple tools for store staff to facilitate collection and return of online purchases in the store; and sophisticate fulfilment workflow for both ship-from-store and high-volume distribution centres. The customer care team have a birds-eye view of everything that's happening, so they can serve the customer with confidence.",
+
+  "HOME_MAP_TITLE_1": "Delivering across", 
+  "HOME_MAP_TITLE_2": "asia pacific",
+  "HOME_MAP_BODY": "From Sydney to Seoul and from Bangkok to Beijing, Purecomm connects local retail stores to online stores. In every corner of Asia, we work in local language, accept local payment, ship from local 3PLs with local couriers and calculate local taxes; delivering best-practice in a way that works.", 
+
+  "HOME_PORTFOLIO_TITLE_1": "A client portfolio", 
+  "HOME_PORTFOLIO_TITLE_2": "that speaks for itself.",
+
+  "FOOTER_HQ": "Hong Kong Headquarters",
+  "FOOTER_HQ_BLDG": "Suite 2402, 24/F, Hong Kong Plaza",
+  "FOOTER_HQ_RD": "188 Connaught Road West",
+  "FOOTER_HQ_COUNTRY": "Hong Kong", 
+  "FOOTER_TEL": "Tel: +852 2559 1918", 
+  "FOOTER_EMAIL": "Email: contact@purecomm.com",
+  "FOOTER_JOIN_US": "Join Us",
+    
+  "BUTTON_LEARN_MORE": "Learn More"
+}
