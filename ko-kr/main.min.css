@@ -320,6 +320,11 @@ nav a.languages {
         .nav-list a.main-links.separate {
           padding-right: 15px; }
 
+@media (max-width: 860px) {
+  .main-links.contact {
+    padding-right: 15px;   }
+}
+
 @media only screen and (max-width: 800px) {
   .nav-mobile {
     display: block;   }
@@ -464,7 +469,7 @@ h4.homepage-highlight {
         display: inline-block;
         position: absolute;
         right: 30px;
-        margin-bottom: 0px;
+        bottom: 70px;
         margin-top: 0px;
         width: 180px;   }
         footer h4 {
