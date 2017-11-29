@@ -160,35 +160,51 @@ body {
 
                                                                                   .wrapper {
                                                                                     max-width: 1170px;
-                                                                                    margin: 0 auto; }
+                                                                                    margin: 0 auto;
+                                                                                    padding-left: 3%;
+                                                                                    padding-right: 3%; }
 
-                                                                                    .wrapper-paragraph {
-                                                                                      max-width: 700px;
-                                                                                      margin: 0 auto; }
+                                                                                    .nav-wrapper {
+                                                                                      max-width: 1170px;
+                                                                                      margin: 0 auto;
+                                                                                      padding-left: 3%;
+                                                                                      padding-right: 3%; }
 
-                                                                                      .placeholder {
-                                                                                        margin-top: -90px;
-                                                                                        padding-top: 90px; }
+                                                                                      .brand-wrapper {
+                                                                                        max-width: 1170px;
+                                                                                        margin: 0 auto;
+                                                                                        padding-left: 0%; }
 
-                                                                                        .placeholder-homepage {
-                                                                                          margin-top: -50px;
-                                                                                          padding-top: 50px; }
+                                                                                        .wrapper-paragraph {
+                                                                                          max-width: 700px;
+                                                                                          margin: 0 auto; }
 
-                                                                                          h2 {
-                                                                                            font-size: 30px;
-                                                                                            text-align: center;
-                                                                                            font-weight: 500;
-                                                                                            letter-spacing: 2px;
-                                                                                            color: black;
-                                                                                            margin-top: 30px; }
-                                                                                            h2 span.homepage-highlight {
-                                                                                              color: #efbf33; }
+                                                                                          .placeholder {
+                                                                                            margin-top: -90px;
+                                                                                            padding-top: 90px; }
 
-@media (max-width: 600px) {
-  h2 {
-    font-size: 25px;   }
-    p {
-      font-weight: 500;   }
+                                                                                            .placeholder-homepage {
+                                                                                              margin-top: -50px;
+                                                                                              padding-top: 50px; }
+
+                                                                                              h2 {
+                                                                                                font-size: 30px;
+                                                                                                text-align: center;
+                                                                                                font-weight: 500;
+                                                                                                letter-spacing: 2px;
+                                                                                                color: black;
+                                                                                                margin-top: 30px; }
+                                                                                                h2 span.homepage-highlight {
+                                                                                                  color: #efbf33; }
+
+.section-highlight {
+  color: #efbf33; }
+
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 25px;   }
+      p {
+        font-weight: 500;   }
 }
 
 @media (max-width: 420px) {
@@ -252,7 +268,6 @@ a.active {
 
       .brand {
         position: absolute;
-        padding-left: 40px;
         padding-top: 20px;
         float: left; }
         .brand img {
@@ -273,7 +288,7 @@ a.active {
         position: relative; }
         nav ul li a {
           display: block;
-          padding: 0 60px 0 15px;
+          padding: 0 0 0 15px;
           line-height: 70px;
           color: #ffffff;
           text-decoration: none; }
@@ -291,7 +306,8 @@ a.active {
             line-height: 20px; }
 
 nav a.languages {
-  min-width: 150px; }
+  min-width: 125px;
+  text-align: right; }
   nav a.languages:not(:only-child):after {
     content: ''; }
 
@@ -299,26 +315,29 @@ nav a.languages {
   min-width: 200px;
   max-width: 200px; }
 
-  .nav-dropdown {
-    position: absolute;
-    z-index: 1;
-    display: none;
-    background: linear-gradient(to bottom, #4a4a4a, black); }
+  a.languages.main-links {
+    padding-right: 0px; }
 
-    .nav-mobile {
-      display: none;
+    .nav-dropdown {
       position: absolute;
-      top: 0;
-      right: 0;
-      background: linear-gradient(to bottom, black, #4a4a4a);
-      height: 70px;
-      width: 70px; }
+      z-index: 1;
+      display: none;
+      background: linear-gradient(to bottom, #4a4a4a, black); }
 
-      .mobile-homepage {
-        display: none; }
+      .nav-mobile {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: linear-gradient(to bottom, black, #4a4a4a);
+        height: 70px;
+        width: 70px; }
 
-        .nav-list a.main-links.separate {
-          padding-right: 15px; }
+        .mobile-homepage {
+          display: none; }
+
+          .nav-list a.main-links.separate {
+            padding-right: 15px; }
 
 @media (max-width: 860px) {
   .main-links.contact {
@@ -346,8 +365,14 @@ nav a.languages {
                 font-weight: 300;   }
   .nav-dropdown {
     position: static;   }
-    a.languages {
-      margin-right: auto;   }
+    .nav-wrapper {
+      padding-left: 0%;   }
+      .brand-wrapper {
+        padding-left: 3%;
+        padding-right: 3%;   }
+        nav a.languages {
+          margin-right: auto;
+          text-align: center;   }
 }
 
 @media screen and (min-width: 800px) {
@@ -366,7 +391,6 @@ nav a.languages {
 
 #nav-toggle {
   position: absolute;
-  left: 18px;
   top: 22px;
   cursor: pointer;
   padding: 10px 35px 16px 0px; }
@@ -397,62 +421,68 @@ h4.homepage-highlight {
   color: #efbf33; }
 
   footer {
-    background: linear-gradient(to top, black, #4a4a4a);
-    padding-left: 3%;
-    padding-right: 3%; }
+    background: linear-gradient(to top, black, #4a4a4a); }
     footer .container {
       display: flex;
       justify-content: space-between; }
       footer .container a {
         text-decoration: none;
-        color: #ffffff; }
+        color: #ffffff;
+        font-size: 16px; }
         footer .container .location {
           color: #ffffff;
           font-weight: 600;
           letter-spacing: 1px;
           margin-top: 20px;
           margin-bottom: 20px; }
-          footer .container .location p {
-            color: #ffffff;
-            line-height: 6px;
-            font-weight: 200; }
-      footer .container .solutions {
-        color: #ffffff;
-        font-weight: 600px;
-        letter-spacing: 1px;
-        margin-top: 20px;
-        margin-bottom: 20px; }
-        footer .container .solutions ul {
-          list-style: none;
-          padding-left: 0px; }
-          footer .container .solutions ul a {
-            font-weight: 200;
+          footer .container .location h4 {
+            margin-bottom: 30px; }
+            footer .container .location p {
+              color: #ffffff;
+              line-height: 6px;
+              font-weight: 200;
+              font-size: 16px; }
+      footer .container .footer-info-container {
+        display: flex;
+        justify-content: space-between; }
+        footer .container .footer-info-container .solutions {
+          color: #ffffff;
+          font-weight: 600px;
+          letter-spacing: 1px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-right: 70px; }
+          footer .container .footer-info-container .solutions ul {
+            list-style: none;
+            padding-left: 0px; }
+            footer .container .footer-info-container .solutions ul a {
+              font-weight: 200;
+              text-decoration: none;
+              color: #ffffff; }
+              footer .container .footer-info-container .solutions ul a:hover {
+                color: #FFDC00;
+                transition: color 0.5s ease; }
+        footer .container .footer-info-container .work {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          color: #ffffff;
+          letter-spacing: 1px;
+          font-weight: 600; }
+          footer .container .footer-info-container .work ul {
+            list-style: none;
+            padding-left: 0px; }
+            footer .container .footer-info-container .work ul a {
+              text-decoration: none;
+              color: #ffffff;
+              font-weight: 200; }
+              footer .container .footer-info-container .work ul a:hover {
+                color: #FFDC00; }
+          footer .container .footer-info-container .work h4 a {
             text-decoration: none;
             color: #ffffff; }
-            footer .container .solutions ul a:hover {
+            footer .container .footer-info-container .work h4 a:hover {
               color: #FFDC00;
               transition: color 0.5s ease; }
-      footer .container .work {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color: #ffffff;
-        letter-spacing: 1px;
-        font-weight: 600; }
-        footer .container .work ul {
-          list-style: none;
-          padding-left: 0px; }
-          footer .container .work ul a {
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 200; }
-            footer .container .work ul a:hover {
-              color: #FFDC00; }
-        footer .container .work h4 a {
-          text-decoration: none;
-          color: #ffffff; }
-          footer .container .work h4 a:hover {
-            color: #FFDC00;
-            transition: color 0.5s ease; }
 
 .bottom img {
   display: none; }
@@ -463,19 +493,27 @@ h4.homepage-highlight {
       padding-bottom: 20px;   }
       footer .container {
         flex-direction: column;   }
-        footer .container .work ul {
-          padding-bottom: 20px;   }
-      footer .bottom img {
-        display: inline-block;
-        position: absolute;
-        right: 30px;
-        bottom: 70px;
-        margin-top: 0px;
-        width: 180px;   }
-        footer h4 {
+        footer .container .location h4 {
+          margin-bottom: 5px;   }
+        footer .container .footer-info-container {
+          flex-direction: column;   }
+          footer .container .footer-info-container .work ul {
+            padding-bottom: 20px;   }
+          footer .container .footer-info-container .solutions {
+            margin-right: 0px;   }
+      footer .bottom {
+        position: relative;   }
+        footer .bottom img {
           display: inline-block;
+          position: absolute;
+          right: 30px;
+          bottom: 0px;
           margin-top: 0px;
-          margin-bottom: 0px;   }
+          width: 180px;   }
+      footer h4 {
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 0px;   }
 }
 
 @media (max-width: 360px) {

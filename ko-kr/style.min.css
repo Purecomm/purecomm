@@ -21,7 +21,8 @@
         line-height: 1.4rem;
         letter-spacing: 1px;
         color: #000000;
-        font-weight: 500; }
+        font-weight: 500;
+        text-align: center; }
         .gallery-cell a {
           background: linear-gradient(to bottom, black, #4a4a4a);
           border: none;
@@ -40,21 +41,21 @@
       text-align: right; }
 
 .hero-1 {
-  background-image: url(assets/img/hero1-2.png);
+  background-image: url(assets/img/hero1.png);
   background-size: cover;
   background-position: center;
   width: 100%;
   position: absolute; }
 
   .hero-2 {
-    background-image: url(assets/img/hero2-2.png);
+    background-image: url(assets/img/hero2.png);
     background-size: cover;
     background-position: center;
     width: 100%;
     position: absolute; }
 
     .hero-3 {
-      background-image: url(assets/img/hero3-3.png);
+      background-image: url(assets/img/hero3.png);
       background-size: cover;
       background-position: center;
       width: 100%;
@@ -96,6 +97,8 @@
     width: 120px;
     padding-top: 2px;
     padding-bottom: 3px;   }
+    .gallery-cell h1 {
+      margin-top: 60px;   }
   button.flickity-prev-next-button {
     width: 40px;
     height: 40px;
@@ -105,15 +108,14 @@
 
 .section1 {
   background-color: #ffffff;
-  padding-bottom: 50px;
-  padding-left: 3%;
-  padding-right: 3%; }
+  padding-bottom: 50px; }
   .section1 .main-benefits {
     display: flex;
     justify-content: center;
     width: 100%; }
     .section1 .main-benefits .benefits-container {
-      margin-left: 40px; }
+      margin-left: 40px;
+      width: 33.3%; }
       .section1 .main-benefits .benefits-container h3 {
         text-align: center;
         font-size: 25px;
@@ -125,7 +127,7 @@
           color: #efbf33; }
       .section1 .main-benefits .benefits-container .benefits-info img {
         width: 100%;
-        box-shadow: 0 12px 47px rgba(0, 0, 0, 0.2); }
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); }
 
 @media (max-width: 1012px) {
   .section1 .main-benefits .benefits-container h3 {
@@ -204,17 +206,14 @@
 }
 
 .section2 {
-  padding-left: 3%;
-  padding-right: 3%;
   background-color: #f6f6f6;
   overflow: hidden;
   padding-bottom: 50px; }
 
   .diagram {
     text-align: center;
-    margin: 45px auto;
-    max-width: 700px;
-    max-height: 322px; }
+    margin: 0 auto;
+    max-width: 700px; }
     .diagram img {
       width: 100%; }
 
@@ -225,14 +224,11 @@
 
 .section3 {
   padding-bottom: 50px;
-  padding-left: 3%;
-  padding-right: 3%;
   background-color: #ffffff;
   overflow: hidden; }
   .section3 .map-image {
     text-align: center;
     margin: 0 auto;
-    width: 700px;
     padding-top: 20px;
     padding-top: 30px; }
     .section3 .map-image img {
@@ -242,24 +238,16 @@
   margin-left: 10px;
   margin-right: 10px; }
 
-  @media (max-width: 460px) {
-    .section3 .map-image {
-      width: 350px;
-      height: 350px;   }
-}
-
-@media (max-width: 420px) {
-  .section3 p {
-    font-weight: 500;   }
-    .section3 .map-image {
-      width: auto;
-      height: auto;   }
+  @media (max-width: 420px) {
+    .section3 p {
+      font-weight: 500;   }
+      .section3 .map-image {
+        width: auto;
+        height: auto;   }
 }
 
 .section4 {
   padding-bottom: 50px;
-  padding-left: 3%;
-  padding-right: 3%;
   background-color: #f6f6f6;
   overflow: hidden; }
 
@@ -305,7 +293,7 @@
         .retail-image.column-margin-right {
           margin-right: 0px !important;   }
           div.retail-image.right-margin.column-margin-left {
-            margin-left: 0px;   }
+            margin-right: 10px !important;   }
             div.retail-image.left-margin.column-margin-right {
               margin-right: 0px;   }
               div.retail-image.column-margin-left {

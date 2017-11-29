@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">   
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link href="main.min.css" rel="stylesheet">
     <link href="work/style.min.css" rel="stylesheet">
     
@@ -19,12 +19,12 @@
 <body>
 
     <section class="navigation clearfix">
-		<div class="nav-container clearfix"> 
-			<div class="brand">
+		<div class="nav-wrapper clearfix"> 
+			<div class="brand brand-wrapper">
 				<a href="/en/"><img src="assets/img/logo-white.png" alt="Purecomm"></a>
 			</div>
 			<nav> 
-				<div class="nav-mobile">
+				<div class="nav-mobile brand-wrapper">
 					<a id="nav-toggle"><span></span></a>
 				</div>
 				<ul class="nav-list">
@@ -34,7 +34,7 @@
 							<li><a href="solutions/#click">Click & Collect</a></li> 
 							<li><a href="solutions/#returns">In-store Returns</a></li>
 							<li><a href="solutions/#aisle">Endless Aisle</a></li>
-							<li><a href="solutions/#store">Store Fulfilment</a></li>
+							<li><a href="solutions/#store">Fulfill from Store</a></li>
 							<li><a href="solutions/#customer">Customer Care</a></li>
 							<li><a href="solutions/#partner">Partner Fulfilment</a></li>
 						</ul>
@@ -51,14 +51,15 @@
 					</li>
 				
 					<li><a class="main-links contact"  href="#contact" >Contact Us</a></li>
-					<li><a class="languages main-links"><img class="flag" src="assets/img/flags/en.png" alt="">LANGUAGE_NAME</a>
+					<li><a class="languages main-links"><img class="flag" src="assets/img/flags/en.png" alt="">English</a>
 						<ul class="nav-dropdown">
-							<li><a onClick="changeLanguage('en')" hreflang="en"><img class="flag" src="assets/img/flags/en.png" alt="">EN</a></li>
-							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">ZH_HK</a></li>
-							<li><a onclick="changeLanguage('jp-jp')" hreflang="jp-jp"><img class="flag" src="assets/img/flags/jp-jp.png" alt="">JP_JP</a></li>
-							<li><a onclick="changeLanguage('ko-kr')" hreflang="ko-kr"><img class="flag" src="assets/img/flags/ko-kr.png" alt="">KO_KR</a></li>
-							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">ZH_CN</a></li>
-							<li><a onclick="changeLanguage('th-th')" hreflang="th-th"><img class="flag" src="assets/img/flags/th-th.png" alt="">TH_TH</a></li>
+							<li><a onClick="changeLanguage('en')" hreflang="en"><img class="flag" src="assets/img/flags/en.png" alt="">English</a></li>
+							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">官话</a></li>
+							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">廣東話</a></li>
+							<li><a onclick="changeLanguage('jp-jp')" hreflang="jp-jp"><img class="flag" src="assets/img/flags/jp-jp.png" alt="">日本語</a></li>
+							<li><a onclick="changeLanguage('ko-kr')" hreflang="ko-kr"><img class="flag" src="assets/img/flags/ko-kr.png" alt="">한국어</a></li>
+							<li><a onclick="changeLanguage('th-th')" hreflang="th-th"><img class="flag" src="assets/img/flags/th-th.png" alt="">ภาษาไทย</a></li>
+							<li><a onclick="changeLanguage('ms')" hreflang="ms"><img class="flag" src="assets/img/flags/ms.png" alt="">بهاس ملايو</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -68,7 +69,7 @@
 
     <main>
     <section class="sub-nav">
-    <div class="work-nav work-wrapper">
+    <div class="work-nav wrapper">
         <ul class="work-links">
             <li><a href="#service">Software as a Service</a></li>
             <li><a href="#practice">Delivering Best Practice</a></li>
@@ -83,63 +84,73 @@
 <div id="service" class="placeholder"></div>
 <div class="work-header" ><h1>Simple. Reliable. Collaborative.</h1></div>
     
-<section class="software-service work-wrapper">
-    <h2><span></span>Software as a Service</h2>
+<section class="software-service wrapper">
+    <h2><span></span><span class="section-highlight">Software</span><span> as a Service</span></h2>
     <div class="software-container">
 
         <div class="software-cell">
             <div class="title">
-                <h3>Team</h3> 
+                <h3>Starter</h3> 
             </div>
 
             <div class="price-container">
-                <p>from...</p>
+                <p>includes</p>
                 <div class="price">
-                    <h3>$19</h3>
-                    <p class="price-bold">per agent<br>per month</p>
+                    <h3>10,000</h3>
+                    <p class="price-bold">orders per year</p>
+                </div>
+                <div class="per-store">
+                    <h3>25</h3>
+                    <p class="price-bold">stores</p>
                 </div>
             </div>
  
             <div class="price-options">
                 <ul>Essential, plus...
                     <div class="bonus">
-                        <li>Essential, plus..._L1</li>
-                        <li>Essential, plus..._L2</li>
-                        <li>Essential, plus..._L3</li>
+                        <li>Click-and-collect</li>
+                        <li>Return-to-store</li>
+                        <li>Adjustments & cancellations</li>
+                        <li>Multi-courier shipping</li>
                     </div>
                 </ul>
-                <div class="promotion-links">
+                <!-- <div class="promotion-links">
                     <a class="free-trial" href="#">Free Trial</a>
                     <a class="buy-now" href="#">Buy Now</a>
-                </div>
+                </div> -->
             </div>	
         </div>
 
         <div class="software-cell middle">
             <div class="title">
-                <h3>Professional</h3>
+                <h3>Standard</h3>
             </div>
 
             <div class="price-container">
-                <p>from...</p>
+                <p>includes</p>
                 <div class="price">
-                    <h3>$49</h3>
-                    <p class="price-bold">per agent<br>per month</p>
+                    <h3>100,000</h3>
+                    <p class="price-bold">orders per year</p>
+                </div>
+                <div class="per-store">
+                    <h3>60</h3>
+                    <p class="price-bold">stores</p>
                 </div>
             </div>
 
             <div class="price-options">
-                <ul>Team, plus...
+                <ul>Starter, plus...
                     <div class="bonus">
-                        <li>Team, plus..._L1</li>
-                        <li>Team, plus..._L2</li>
-                        <li>Team, plus..._L3</li>
+                        <li>Store fulfilment</li>
+                        <li>Endless aisle</li>
+                        <li>Discounts and appeasements</li>
+                        <li>Marketplace integration</li>
                     </div>
                 </ul>
-                <div class="promotion-links">
+                <!-- <div class="promotion-links">
                         <a class="free-trial" href="#">Free Trial</a>
                         <a class="buy-now" href="#">Buy Now</a>
-                    </div>
+                    </div> -->
             </div>	
         </div>
 
@@ -149,27 +160,30 @@
             </div>
 
             <div class="price-container">
-                <p>from...</p>
+                <p>includes</p>
                 <div class="price">
-                    <h3>$99</h3>
-                    <p class="price-bold">per agent<br>per month</p>
+                    <h3>250,000</h3>
+                    <p class="price-bold">orders per year</p>
+                </div>
+                <div class="per-store">
+                    <h3>125</h3>
+                    <p class="price-bold">stores</p>
                 </div>
             </div>
 
             <div class="price-options">
-                <ul>Professional, plus...
+                <ul>Standard, plus...
                     <div class="bonus">
-                        <li>Professional, plus..._L1</li>
-                        <li>Professional, plus..._L2</li>
-                        <li>MProfessional, plus..._L3</li>
-                        <li>Professional, plus..._L4</li>
-                        <li>Professional, plus..._L5</li>
+                        <li>Multi-brand, multi-currency</li>
+                        <li>Partner fulfilment</li>
+                        <li>Silent fraud control</li>
+                        <li>Customer self-service</li>
                     </div>
                 </ul>
-                <div class="promotion-links">
+                <!-- <div class="promotion-links">
                         <a class="free-trial" href="#">Free Trial</a>
-                        <a class="buy-now" href="#">>Buy Now</a>
-                    </div>
+                        <a class="buy-now" href="#">Buy Now</a>
+                    </div> -->
             </div>	
         </div>
     </div>
@@ -179,12 +193,12 @@
 
 <div id="practice" class="placeholder"></div>
 <section class="best-practice">
-    <div class="work-wrapper">
+    <div class="wrapper">
         <div class="best-practice-container">
-            <h2><span></span>Delivering Best Practice</h2>
+            <h2><span></span><span class="section-highlight">Delivering</span><span> Best Practice</span></h2>
             <div class="wrapper-paragraph">
-                <p>Omnichannel fulfilment can get complicated. We keep it simple, with pre-built workflows that capture the best practices that we've learnt. With many of our client replatforming from legacy OMS systems to Purecomm, we have taken years of learnings, and distilled them for everyone to share.</p>
-                <p>But are costs really decreasing? Is margin really increasing? Are you delivering on your express delivery promise? We'll provide both the measured and the benchmark to keep you on course.</p>
+                <p>Every insight from every customer is backed into the Purecomm platform for the future. In 10 years working for the most successful omni-channel brands in the region, our out-of-the-box workflows are simple and reliable.</p>
+                <p>Purecomm provides the benchmarks and KPIs to prove it. We help to drive customer-centric behaviour across the business, and to measure the celebrate success.</p>
             </div>
         </div>
     </div>
@@ -194,16 +208,14 @@
 
 <div id="integrations" class="placeholder"></div>
 <section class="reusable-integrations">
-    <div class="work-wrapper">
-        <div class="integrations-container">
-            <h2><span></span>Reusable Integrations</h2>
+    <div class="wrapper">
+            <h2><span></span><span class="section-highlight">Reusable</span><span> Integrations</span></h2>
             <div class="integrations-diagram">
-                <img src="assets/img/placeholder.png" alt="">
+                <img src="assets/img/diagram2.png" alt="">
             </div>
             <div class="wrapper-paragraph">
-                <p>An Order Management sits at the heart of enterprise architecture, and full integration can be a big job. We've already integrated with many different systems, and whilst no two enterprise architectures are the same, we can save you a lot of time and effort by reusing the integrations we've already built.</p>
+                <p>The Order Management system sits at the heart of enterprise architecture. We've already integrated with many different systems, and whilst no two enterprise architectures are the same, we aim to save time and effort by reusing integrations we've already built.</p>
             </div>
-        </div>
     </div>
 </section>
 
@@ -211,11 +223,11 @@
 
 <div id="collaboration" class="placeholder"></div>
 <section class="partner-collaboration">
-    <div class="work-wrapper">
+    <div class="wrapper">
         <div class="partner-container">
-            <h2><span></span>Partner Collaboration</h2>
+            <h2><span></span><span class="section-highlight">Partner</span><span> Collaboration</span></h2>
                 <div class="partner-logo">
-                    <img src="assets/img/handshake.png" alt="">
+                    <img src="assets/img/partner.png" alt="">
                 </div>
                 <div class="wrapper-paragraph">
                     <p>Purecomm works closely with leading System Integration Partners across Asia Pacific, to provide on-the-ground support in each market, from people who are already familiar with your systems.</p>
@@ -228,9 +240,12 @@
 
 <div id="success" class="placeholder"></div>
 <section class="sharing-success">
-    <div class="work-wrapper">
+    <div class="wrapper">
         <div class="success-container">
-            <h2><span></span>Sharing Success</h2>
+            <h2><span></span><span class="section-highlight">Sharing</span><span> Success</span></h2>
+            <div class="partner-logo">
+                <img src="assets/img/sharing.png" alt="">
+            </div>
             <div class="wrapper-paragraph">
                 <p>Join our client community, and gain insights from some of the most successful retail brands in the world.</p>
                 <p>Your success is our success, and our specialist omnichannel consultants will be with you every step of the way.</p>
@@ -243,13 +258,17 @@
 
 <div id="values" class="placeholder"></div>
 <section class="our-values">
-    <div class="work-wrapper">
+    <div class="wrapper">
         <div class="values-container">
-            <h2><span></span>Living Our Values</h2>
+            <h2><span></span><span class="section-highlight">Living</span><span> Our Values</span></h2>
+            <div class="partner-logo">
+                <img src="assets/img/values.png" alt="">
+            </div>
             <div class="wrapper-paragraph">
-                <p>The way we do work is simple, reliable and collaborative, and we apply these values to everything we do.</p>
-                <p>We build simple solutions that are fast and easy to use. When we make a promise, we keep it. When we make a mistake, we learn from it.</p>
-                <p>We're always lookinh for confident professionals who share our values. If you're looking for a new challenge, <span class="highlight">join us!</span></p>
+                <p>The way we do work is simple, reliable and collaborative.</p>
+                <p>We build simple solutions that are fast and easy to use.</p>
+                <p>When we make a promise, we keep it. When we make a mistake, we learn from it.</p>
+                <p>We're always looking for confident professionals who share our values. If you're looking for a new challenge, <span class="highlight">join us!</span></p>
             </div>
         </div>
     </div>
@@ -270,31 +289,33 @@
                     <p>Email: contact@purecomm.com</p>
                 </div>
             </div>
-    
-            <div class="solutions">
-                <h4 class="homepage-highlight">Our Solutions</h4>
-                <ul>
-                    <li><a href="solutions/#click">Click & Collect</a></li>
-                    <li><a href="solutions/#returns">In-store Returns</a></li>
-                    <li><a href="solutions/#aisle">Endless Aisle</a></li>
-                    <li><a href="solutions/#store">Store Fulfilment</a></li>
-                    <li><a href="solutions/#customer">Customer Care</a></li>
-                    <li><a href="solutions/#partner">Partner Fulfilment</a></li>
-                </ul>
-            </div>
-    
-            <div class="work">
-                <h4 class="homepage-highlight">The Way We Work</h4>
-                <ul>
-                    <li><a href="work/#service">Software as a Service</a></li>
-                    <li><a href="work/#practice">Delivering Best Practice</a></li>
-                    <li><a href="work/#integrations">Reusable Integrations</a></li>
-                    <li><a href="work/#collaboration">Partner Collaboration</a></li>
-                    <li><a href="work/#success">Sharing Success</a></li>
-                    <li><a href="work/#values">Living Our Values</a></li>
-                </ul>
-                <div class="bottom">
-                    <img src="assets/img/logo-white.png" alt=""/>
+            
+            <div class="footer-info-container">
+                <div class="solutions">
+                    <h4 class="homepage-highlight">Our Solutions</h4>
+                    <ul>
+                        <li><a href="solutions/#click">Click & Collect</a></li>
+                        <li><a href="solutions/#returns">In-store Returns</a></li>
+                        <li><a href="solutions/#aisle">Endless Aisle</a></li>
+                        <li><a href="solutions/#store">Fulfill from Store</a></li>
+                        <li><a href="solutions/#customer">Customer Care</a></li>
+                        <li><a href="solutions/#partner">Partner Fulfilment</a></li>
+                    </ul>
+                </div>
+        
+                <div class="work">
+                    <h4 class="homepage-highlight">The Way We Work</h4>
+                    <ul>
+                        <li><a href="work/#service">Software as a Service</a></li>
+                        <li><a href="work/#practice">Delivering Best Practice</a></li>
+                        <li><a href="work/#integrations">Reusable Integrations</a></li>
+                        <li><a href="work/#collaboration">Partner Collaboration</a></li>
+                        <li><a href="work/#success">Sharing Success</a></li>
+                        <li><a href="work/#values">Living Our Values</a></li>
+                    </ul>
+                    <div class="bottom">
+                        <img src="assets/img/logo-white.png" alt=""/>
+                    </div>
                 </div>
             </div>
         </div>
