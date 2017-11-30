@@ -210,16 +210,60 @@
   overflow: hidden;
   padding-bottom: 50px; }
 
-  .diagram {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 700px; }
-    .diagram img {
-      width: 100%; }
+  .diagram-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .diagram-container .diagram-img {
+      width: 300px; }
+      .diagram-container .diagram-img img {
+        width: 100%; }
+    .diagram-container .diagram-list ul {
+      list-style: none;
+      line-height: 5.6;
+      padding-left: 10%; }
+      .diagram-container .diagram-heading p {
+        margin-bottom: 9%;
+        padding-right: 5%;
+        color: #000000;
+        font-weight: 500; }
+
+@media (max-width: 845px) {
+  .diagram-container .diagram-img {
+    width: 200px;   }
+    .diagram-container .diagram-list ul {
+      line-height: 3.8;   }
+}
+
+@media (max-width: 750px) {
+  .diagram-heading {
+    text-align: center;   }
+    .diagram-heading span {
+      display: block;   }
+}
+
+@media (max-width: 580px) {
+  .diagram-container .diagram-img {
+    width: 150px;   }
+    .diagram-container .diagram-list ul {
+      line-height: 3;   }
+      .diagram-container .diagram-heading {
+        width: 25%;   }
+}
+
+@media (max-width: 470px) {
+  .diagram-container .diagram-list ul li.line-break {
+    line-height: 1;   }
+}
 
 @media (max-width: 420px) {
   .section2 p {
     font-weight: 500;   }
+}
+
+@media (max-width: 340px) {
+  .diagram-container .diagram-list ul {
+    font-size: 14px;   }
 }
 
 .section3 {

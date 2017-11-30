@@ -73,7 +73,7 @@
     .click-collect-container:first-child {
       margin-left: 0px; }
       .click-collect-container h2 {
-        text-align: center; }
+        text-align: right; }
 
 .click-collect-container.img-container {
   margin-left: 0px;
@@ -107,8 +107,7 @@
   padding-top: 1%;
   padding-bottom: 5%; }
   .store-fulfilment h2 {
-    position: relative;
-    margin-bottom: 0px; }
+    position: relative; }
 
 .store-fulfilment-container {
   display: flex;
@@ -124,7 +123,7 @@
         margin-bottom: 0px;
         display: flex;
         margin: 0 auto;
-        width: 200px; }
+        width: 150px; }
 
 @media (max-width: 750px) {
   .store-fulfilment-container {
@@ -156,7 +155,7 @@
       .customer-care-container .customer-care-cell .customer-img {
         text-align: center;
         margin: 0 auto;
-        width: 200px; }
+        width: 150px; }
         .customer-care-container .customer-care-cell .customer-img img {
           width: 100%; }
     .customer-care-container .customer-care-cell h3 {

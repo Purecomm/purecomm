@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="LANGUAGE_CODE">
+
+<head>
+    <base href="/LANGUAGE_CODE/">
+    <meta charset="utf-8">
+    <title>Purecomm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">   
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="main.min.css" rel="stylesheet">
+    <link href="solutions/style.min.css" rel="stylesheet">
+    
+</head>
+ 
+<body>
+
+    <section class="navigation clearfix">
+		<div class="nav-wrapper clearfix"> 
+			<div class="brand brand-wrapper">
+				<a href="/LANGUAGE_CODE/"><img src="assets/img/logo-white.png" alt="Purecomm"></a>
+			</div>
+			<nav> 
+				<div class="nav-mobile brand-wrapper">
+					<a id="nav-toggle"><span></span></a>
+				</div>
+				<ul class="nav-list">
+					<li class="mobile-homepage"><a href="/LANGUAGE_CODE/">NAVIGATION_HOMEPAGE</a></li>
+					<li><a href="solutions" class="main-links separate selected">NAVIGATION_SOLUTIONS</a>
+						<ul class="nav-dropdown set-width items">
+							<li><a href="solutions/#click">NAVIGATION_CLICK_COLLECT</a></li> 
+							<li><a href="solutions/#returns">NAVIGATION_STORE_RETURNS</a></li>
+							<li><a href="solutions/#aisle">NAVIGATION_ENDLESS_AISLE</a></li>
+							<li><a href="solutions/#store">NAVIGATION_STORE_FULFILMENT</a></li>
+							<li><a href="solutions/#customer">NAVIGATION_CUSTOMER_CARE</a></li>
+							<li><a href="solutions/#partner">NAVIGATION_PARTNER_FULFILMENT</a></li>
+						</ul>
+					</li>
+					<li><a href="work" class="main-links separate select">NAVIGATION_WORK</a>
+						<ul class="nav-dropdown set-width">
+							<li><a href="work/#service">NAVIGATION_SOFTWARE_SERVICE</a></li>
+							<li><a href="work/#practice">NAVIGATION_BEST_PRACTICE</a></li>
+							<li><a href="work/#integrations">NAVIGATION_REUSABLE_INTEGRATIONS</a></li>
+							<li><a href="work/#collaboration">NAVIGATION_PARTNER_COLLABORATION</a></li>
+							<li><a href="work/#success">NAVIGATION_SHARING_SUCCESS</a></li>
+							<li><a href="work/#values">NAVIGATION_VALUES</a></li>
+						</ul>
+					</li>
+				
+					<li><a class="main-links contact"  href="#contact" >NAVIGATION_CONTACT</a></li>
+					<li><a class="languages main-links"><img class="flag" src="assets/img/flags/LANGUAGE_CODE.png" alt="">LANGUAGE_NAME</a>
+						<ul class="nav-dropdown">
+							<li><a onClick="changeLanguage('en')" hreflang="en"><img class="flag" src="assets/img/flags/en.png" alt="">NAVIGATION_EN</a></li>
+							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">NAVIGATION_ZH_CN</a></li>
+							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">NAVIGATION_ZH_HK</a></li>
+							<li><a onclick="changeLanguage('jp-jp')" hreflang="jp-jp"><img class="flag" src="assets/img/flags/jp-jp.png" alt="">NAVIGATION_JP_JP</a></li>
+							<li><a onclick="changeLanguage('ko-kr')" hreflang="ko-kr"><img class="flag" src="assets/img/flags/ko-kr.png" alt="">NAVIGATION_KO_KR</a></li>
+							<li><a onclick="changeLanguage('th-th')" hreflang="th-th"><img class="flag" src="assets/img/flags/th-th.png" alt="">NAVIGATION_TH_TH</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div> 
+	</section>
+
+    <main>
+    <section class="sub-nav">
+  <div class="solutions-nav wrapper">
+    <ul class="solutions-links">
+      <li><a href="#click">NAVIGATION_CLICK_COLLECT</a></li>
+      <li><a href="#returns">NAVIGATION_STORE_RETURNS</a></li>
+      <li><a href="#aisle">NAVIGATION_ENDLESS_AISLE</a></li>
+      <li><a href="#store">NAVIGATION_STORE_FULFILMENT</a></li>
+      <li><a href="#customer">NAVIGATION_CUSTOMER_CARE</a></li>
+      <li><a href="#partner">NAVIGATION_PARTNER_FULFILMENT</a>
+      </li>
+    </ul>
+  </div>  
+</section> 
+<div class="placeholder" id="click"></div>
+<div class="solutions-header" > <h1>SOLUTIONS_HEADER_1<span>SOLUTIONS_HEADER_2</span></h1></div>
+ 
+
+<section class="click-and-collect wrapper">
+  <div class="click-collect-container h2">
+    <h2><span></span><span class="solutions-highlight">SOLUTIONS_CLICK_COLLECT_1H1 </span><span>SOLUTIONS_CLICK_COLLECT_1H2</span></h2>
+  </div>
+  <div class="click-collect-container img-container">
+      <img  srcset="assets/img/click-cropped-300w.png 300w,
+                    assets/img/click-cropped.png 800w"
+            sizes="(max-width: 480px) 300px,
+                  800px" 
+        src="assets/img/click-cropped.png" alt="">
+  </div>
+  <div class="click-collect-container info-container">
+      <p>SOLUTIONS_CLICK_COLLECT_1P</p>
+      <p>SOLUTIONS_CLICK_COLLECT_2P</p> 
+  </div>
+</div>
+</section> 
+
+<div class="placeholder" id="returns"></div>
+
+<div class="middle">
+<section class="click-and-collect wrapper">
+      <div class="click-collect-container h2">
+        <h2><span></span><span class="solutions-highlight">SOLUTIONS_STORE_RETURNS_1H1 </span><span>SOLUTIONS_STORE_RETURNS_1H2</span></h2>
+      </div>
+      <div class="click-collect-container img-container">
+        <img srcset="assets/img/returns-cropped-300w.png 300w,
+                    assets/img/returns-cropped.png 800w"
+            sizes="(max-width: 480px) 300px, 
+                  800px" 
+            src="assets/img/returns-cropped.png" alt="">
+      </div> 
+      <div class="click-collect-container info-container">
+        <p>SOLUTIONS_STORE_RETURNS_1P</p>
+        <p>SOLUTIONS_STORE_RETURNS_2P</p>
+      </div>
+</section>
+</div>
+
+<div class="placeholder" id="aisle"></div>
+
+<section class="click-and-collect wrapper">
+  <div class="click-collect-container h2">
+    <h2><span class="solutions-highlight">SOLUTIONS_ENDLESS_AISLE_1H1 </span><span>SOLUTIONS_ENDLESS_AISLE_1H2</span></h2>
+  </div>
+    <div class="click-collect-container img-container">
+      <img srcset="assets/img/aisle-cropped-300w.png 300w, 
+                  assets/img/aisle-cropped.png 800w"
+            sizes="(max-width: 480px) 300px,
+                  800px" 
+          src="assets/img/aisle-cropped.png" alt="">
+    </div>
+    <div class="click-collect-container info-container">
+      <p>SOLUTIONS_ENDLESS_AISLE_1P</p>
+      <p>SOLUTIONS_ENDLESS_AISLE_2P</p>
+    </div>
+</section>
+
+<div class="placeholder" id="store"></div>
+<section class="store-fulfilment">
+<div class="wrapper">
+  <h2><span></span><span class="solutions-highlight">SOLUTIONS_STORE_FULFILMENT_1H1 </span><span>SOLUTIONS_STORE_FULFILMENT_1H2</span></h2>
+  <div class="store-fulfilment-container">
+    <div class="store">
+      <img src="assets/img/small-store.png" alt="">
+      <p>SOLUTIONS_STORE_FULFILMENT_1P</p>
+      <p>SOLUTIONS_STORE_FULFILMENT_2P</p>
+    </div>
+    <div class="store">
+      <img src="assets/img/medium-store.png" alt="">
+      <p>SOLUTIONS_STORE_FULFILMENT_3P</p>
+      <p>SOLUTIONS_STORE_FULFILMENT_4P</p>
+    </div>
+    <div class="store">
+      <img src="assets/img/big-store.png" alt="">
+      <p>SOLUTIONS_STORE_FULFILMENT_5P</p>
+      <p>SOLUTIONS_STORE_FULFILMENT_6P</p>
+    </div>
+  </div> 
+</div> 
+</section>
+
+<div class="placeholder" id="customer"></div>
+<div class="wrapper">
+<div class="wrapper-paragraph customer-care">
+  <h2><span></span><span class="solutions-highlight">SOLUTIONS_CUSTOMER_CARE_1H1 </span><span>SOLUTIONS_CUSTOMER_CARE_1H2</span></h2>
+  <div class="customer-care-container">
+    <div class="customer-care-cell">
+      <h3>SOLUTIONS_CUSTOMER_CARE_SUBH1</h3>
+      <div class="customer-img">
+        <img src="assets/img/adjustments.png" alt="">
+      </div>
+      <p>SOLUTIONS_CUSTOMER_CARE_SUBP1</p>
+      <p>SOLUTIONS_CUSTOMER_CARE_SUBP2</p>
+    </div>
+    <div class="customer-care-cell">
+      <h3>SOLUTIONS_CUSTOMER_CARE_SUBH2</h3>
+      <div class="customer-img">
+        <img src="assets/img/discounts.png" alt="">
+      </div>
+      <p>SOLUTIONS_CUSTOMER_CARE_SUBP3</p>
+      <p>SOLUTIONS_CUSTOMER_CARE_SUBP4</p>
+        </div>
+    </div>
+    <div class="customer-care-container">
+    <div class="customer-care-cell">
+      <h3>SOLUTIONS_CUSTOMER_CARE_SUBH3</h3>
+      <div class="customer-img">
+        <img src="assets/img/fraud.png" alt="">
+      </div>
+      <p>SOLUTIONS_CUSTOMER_CARE_SUBP5</p>
+      <p>SOLUTIONS_CUSTOMER_CARE_SUBP6</p>
+    </div>
+    <div class="customer-care-cell">
+      <h3>SOLUTIONS_CUSTOMER_CARE_SUBH4</h3>
+      <div class="customer-img">
+        <img src="assets/img/customer.png" alt="">
+      </div>
+      <p>SOLUTIONS_CUSTOMER_CARE_SUBP7</p>
+      <p>SOLUTIONS_CUSTOMER_CARE_SUBP8</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="placeholder" id="partner"></div>
+<section class="partner-dropship">
+  <div class="wrapper">
+    <h2><span></span><span class="solutions-highlight">SOLUTIONS_PARTNER_DROPSHIP_1H1 </span><span>SOLUTIONS_PARTNER_DROPSHIP_1H2</span></h2>
+    <div class="partner-container">
+      <div class="partner-cell">
+        <h3>SOLUTIONS_PARTNER_DROPSHIP_SUBH1</h3>
+        <img src="assets/img/regional.png" alt="">
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP1</p>
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP2</p>
+      </div>
+      <div class="partner-cell">
+        <h3>SOLUTIONS_PARTNER_DROPSHIP_SUBH2</h3>
+        <img src="assets/img/vendor.png" alt="">
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP3</p> 
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP4</p>
+      </div>
+      <div class="partner-cell">
+        <h3>SOLUTIONS_PARTNER_DROPSHIP_SUBH3</h3>
+        <img src="assets/img/franchise.png" alt="">
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP5</p>
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP6</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+    
+    <footer id="contact"> 
+        <div class="container wrapper">
+            <div class="location">
+                <h4 class="homepage-highlight"><span></span>FOOTERHQ</h4>
+                <p>FOOTER_BLDG</p>
+                <p>FOOTER_RD</p>
+                <p>FOOTER_COUNTRY</p>
+                <div class="contact">
+                    <p><a href="tel: +852 2559 1918">FOOTER_TEL</a></p>
+                    <p>FOOTER_EMAIL</p>
+                </div>
+            </div>
+            
+            <div class="footer-info-container">
+                <div class="solutions">
+                    <h4 class="homepage-highlight">NAVIGATION_SOLUTIONS</h4>
+                    <ul>
+                        <li><a href="solutions/#click">NAVIGATION_CLICK_COLLECT</a></li>
+                        <li><a href="solutions/#returns">NAVIGATION_STORE_RETURNS</a></li>
+                        <li><a href="solutions/#aisle">NAVIGATION_ENDLESS_AISLE</a></li>
+                        <li><a href="solutions/#store">NAVIGATION_STORE_FULFILMENT</a></li>
+                        <li><a href="solutions/#customer">NAVIGATION_CUSTOMER_CARE</a></li>
+                        <li><a href="solutions/#partner">NAVIGATION_PARTNER_FULFILMENT</a></li>
+                    </ul>
+                </div>
+        
+                <div class="work">
+                    <h4 class="homepage-highlight">NAVIGATION_WORK</h4>
+                    <ul>
+                        <li><a href="work/#service">NAVIGATION_SOFTWARE_SERVICE</a></li>
+                        <li><a href="work/#practice">NAVIGATION_BEST_PRACTICE</a></li>
+                        <li><a href="work/#integrations">NAVIGATION_REUSABLE_INTEGRATIONS</a></li>
+                        <li><a href="work/#collaboration">NAVIGATION_PARTNER_COLLABORATION</a></li>
+                        <li><a href="work/#success">NAVIGATION_SHARING_SUCCESS</a></li>
+                        <li><a href="work/#values">NAVIGATION_VALUES</a></li>
+                    </ul>
+                    <div class="bottom">
+                        <img src="assets/img/logo-white.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    </main>
+
+    <script type="text/javascript" src="main.min.js"></script>
+    <script type="text/javascript" src="solutions/script.min.js"></script>
+</body>
+
+</html>
