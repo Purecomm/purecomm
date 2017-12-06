@@ -7,12 +7,13 @@
     <title>Purecomm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="shortcut icon" href="assets/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">   
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="main.min.css" rel="stylesheet">
     <link href="solutions/style.min.css" rel="stylesheet">
+
     
 </head>
  
@@ -34,9 +35,9 @@
 							<li><a href="solutions/#click">Click & Collect</a></li> 
 							<li><a href="solutions/#returns">In-store Returns</a></li>
 							<li><a href="solutions/#aisle">Endless Aisle</a></li>
-							<li><a href="solutions/#store">Fulfill from Store</a></li>
+							<li><a href="solutions/#store">Ship from Store</a></li>
 							<li><a href="solutions/#customer">Customer Care</a></li>
-							<li><a href="solutions/#partner">Partner Fulfilment</a></li>
+							<li><a href="solutions/#partner">Dropship & Partner Fulfilment</a></li>
 						</ul>
 					</li>
 					<li><a href="work" class="main-links separate select">The Way We Work</a>
@@ -54,8 +55,8 @@
 					<li><a class="languages main-links"><img class="flag" src="assets/img/flags/en.png" alt="">English</a>
 						<ul class="nav-dropdown">
 							<li><a onClick="changeLanguage('en')" hreflang="en"><img class="flag" src="assets/img/flags/en.png" alt="">English</a></li>
-							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">官话</a></li>
-							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">廣東話</a></li>
+							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">简体中文</a></li>
+							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">繁体中文</a></li>
 							<li><a onclick="changeLanguage('jp-jp')" hreflang="jp-jp"><img class="flag" src="assets/img/flags/jp-jp.png" alt="">日本語</a></li>
 							<li><a onclick="changeLanguage('ko-kr')" hreflang="ko-kr"><img class="flag" src="assets/img/flags/ko-kr.png" alt="">한국어</a></li>
 							<li><a onclick="changeLanguage('th-th')" hreflang="th-th"><img class="flag" src="assets/img/flags/th-th.png" alt="">ภาษาไทย</a></li>
@@ -73,9 +74,9 @@
       <li><a href="#click">Click & Collect</a></li>
       <li><a href="#returns">In-store Returns</a></li>
       <li><a href="#aisle">Endless Aisle</a></li>
-      <li><a href="#store">Fulfill from Store</a></li>
+      <li><a href="#store">Ship from Store</a></li>
       <li><a href="#customer">Customer Care</a></li>
-      <li><a href="#partner">Partner Fulfilment</a>
+      <li><a href="#partner">Dropship & Partner Fulfilment</a>
       </li>
     </ul>
   </div>  
@@ -86,7 +87,7 @@
 
 <section class="click-and-collect wrapper">
   <div class="click-collect-container h2">
-    <h2><span></span><span class="solutions-highlight">Click </span><span>& Collect</span></h2>
+    <h2><span></span>Click <span>& Collect</span></h2>
   </div>
   <div class="click-collect-container img-container">
       <img  srcset="assets/img/click-cropped-300w.png 300w,
@@ -107,7 +108,7 @@
 <div class="middle">
 <section class="click-and-collect wrapper">
       <div class="click-collect-container h2">
-        <h2><span></span><span class="solutions-highlight">In-store </span><span>Returns</span></h2>
+        <h2><span></span>In-store <span>Returns</span></h2>
       </div>
       <div class="click-collect-container img-container">
         <img srcset="assets/img/returns-cropped-300w.png 300w,
@@ -118,7 +119,7 @@
       </div> 
       <div class="click-collect-container info-container">
         <p>Welcome your customers back into the store to return or exchange unwanted online purchases.</p>
-        <p>Get stock back on the shelf as quickly as you can.</p>
+        <p>Get products back on the shelf as quickly as you can.</p>
       </div>
 </section>
 </div>
@@ -127,7 +128,7 @@
 
 <section class="click-and-collect wrapper">
   <div class="click-collect-container h2">
-    <h2><span class="solutions-highlight">Endless </span><span>Aisle</span></h2>
+    <h2>Endless <span>Aisle</span></h2>
   </div>
     <div class="click-collect-container img-container">
       <img srcset="assets/img/aisle-cropped-300w.png 300w, 
@@ -137,10 +138,31 @@
           src="assets/img/aisle-cropped.png" alt="">
     </div>
     <div class="click-collect-container info-container">
-      <p>Provide an endess selection of product in even the smallest store. Take an order for stock that's in another store, and save the sale when you're out of stock locally.</p>
+      <p>Provide an endess selection of products in even the smallest store. Take an order for stock that's in another store, and save the sale when you're out of stock locally.</p>
       <p>With handheld digital lookbooks, the sales associate can inspire and guide customers to explore new products and place an order.</p>
     </div>
 </section>
+
+<div class="placeholder" id="ship-from-store"></div>
+
+<div class="middle">
+  <section class="click-and-collect wrapper">
+    <div class="click-collect-container h2">
+      <h2>Ship from Store</h2>
+    </div>
+      <div class="click-collect-container img-container">
+        <img srcset="assets/img/ship-from-store-300w.png 300w, 
+                    assets/img/ship-from-store.png 800w"
+              sizes="(max-width: 480px) 300px,
+                    800px" 
+            src="assets/img/ship-from-store.png" alt="">
+      </div>
+      <div class="click-collect-container info-container">
+        <p>Provide an endess selection of products in even the smallest store. Take an order for stock that's in another store, and save the sale when you're out of stock locally.</p>
+        <p>With handheld digital lookbooks, the sales associate can inspire and guide customers to explore new products and place an order.</p>
+      </div>
+  </section>
+</div>
 
 <div class="placeholder" id="store"></div>
 <section class="store-fulfilment">
@@ -167,59 +189,56 @@
 </section>
 
 <div class="placeholder" id="customer"></div>
-<div class="wrapper">
-<div class="wrapper-paragraph customer-care">
-  <h2><span></span><span class="solutions-highlight">Care </span><span>for your customers</span></h2>
-  <div class="customer-care-container">
-    <div class="customer-care-cell">
-      <h3>Adjustments & Cancellations</h3>
-      <div class="customer-img">
-        <img src="assets/img/adjustments.png" alt="">
-      </div>
-      <p>''What have I done!?'' It's sometimes only when the customer gets their confirmation email that they realise what they've ordered.</p>
-      <p>Wrong size? Wrong colour? Too many? Or just a change of heart; Purecomm allows your customer to make adjustments to an order, right up to the moment it goes out the door.</p>
-    </div>
-    <div class="customer-care-cell">
-      <h3>Discounts & Appeasements</h3>
-      <div class="customer-img">
-        <img src="assets/img/discounts.png" alt="">
-      </div>
-      <p>Don't leave your customer feeling they have missed out. If they forgot to enter a promotion code online, or want to return something so they can order again in the sale; just add the discount to their order.</p>
-      <p>And if you ever need to apologise, Purecomm lets you refund shipping fees, provide a partial refund, or issue a gift certificate.</p>
+<div class="customer-background">
+  <div class="wrapper">
+    <div class="customer-care">
+      <h2><span></span><span class="solutions-highlight">Care </span><span>for your customers</span></h2>
+      <div class="customer-care-container">
+        <div class="customer-care-cell">
+          <h3>Adjustments & Cancellations</h3>
+          <div class="customer-img">
+            <img src="assets/img/adjustments.png" alt="">
+          </div>
+          <p>''What have I done!?'' It's sometimes only when the customer gets their confirmation email that they realise what they've ordered.</p>
+          <p>Wrong size? Wrong colour? Too many? Or just a change of heart; Purecomm allows your customer to make adjustments to an order, right up to the moment it goes out the door.</p>
         </div>
-    </div>
-    <div class="customer-care-container">
-    <div class="customer-care-cell">
-      <h3>Silent Fraud Control</h3>
-      <div class="customer-img">
-        <img src="assets/img/fraud.png" alt="">
+        <div class="customer-care-cell">
+          <h3>Discounts & Appeasements</h3>
+          <div class="customer-img">
+            <img src="assets/img/discounts.png" alt="">
+          </div>
+          <p>Don't leave your customer feeling they have missed out. If they forgot to enter a promotion code online, or want to return something so they can order again in the sale; just add the discount to their order.</p>
+          <p>And if you ever need to apologise, Purecomm lets you refund shipping fees, provide a partial refund, or issue a gift certificate.</p>
+            </div>
+        </div>
+        <div class="customer-care-container">
+        <div class="customer-care-cell">
+          <h3>Silent Fraud Control</h3>
+          <div class="customer-img">
+            <img src="assets/img/fraud.png" alt="">
+          </div>
+          <p>There's some fraud around, and in some markets, it's important to screen for it - but that doesn't mean you need to keep your customer waiting.</p>
+          <p>Purecomm gets started on the order fulfilment, even whilst a fraud review is underway. As soon as an order is approved, it's ready to go out of the door, within the normal delivery times.</p>
+        </div>
+        <div class="customer-care-cell">
+          <h3>Customer Self-Service</h3>
+          <div class="customer-img">
+            <img src="assets/img/customer.png" alt="">
+          </div>
+          <p>Reduce the load on your customer care team, and deliver faster service to your customer.</p>
+          <p>With Purecomm, the customer can track their own order, adjust their own order, and choose whether to split an order or wait for it to be delivered all at once.</p>
+        </div>
       </div>
-      <p>There's some fraud around, and in some markets, it's important to screen for it - but that doesn't mean you need to keep your customer waiting.</p>
-      <p>Purecomm gets started on the order fulfilment, even whilst a fraud review is underway. As soon as an order is approved, it's ready to go out of the door, within the normal delivery times.</p>
     </div>
-    <div class="customer-care-cell">
-      <h3>Customer Self-Service</h3>
-      <div class="customer-img">
-        <img src="assets/img/customer.png" alt="">
-      </div>
-      <p>Reduce the load on your customer care team, and deliver faster service to your customer.</p>
-      <p>With Purecomm, the customer can track their own order, adjust their own order, and choose whether to split an order or wait for it to be delivered all at once.</p>
     </div>
-  </div>
 </div>
-</div>
+
 
 <div class="placeholder" id="partner"></div>
 <section class="partner-dropship">
   <div class="wrapper">
-    <h2><span></span><span class="solutions-highlight">Fulfilling </span><span>partnerships</span></h2>
+    <h2><span></span><span class="solutions-highlight">Dropship </span><span>and Partner Fulfilment</span></h2>
     <div class="partner-container">
-      <div class="partner-cell">
-        <h3>Regional consolidation</h3>
-        <img src="assets/img/regional.png" alt="">
-        <p>Extend your online product selection across Asia Pacific with a centralised pool of inventory in Hong Kong. Our 3PL partners can manage the process end-to-end.</p>
-        <p>Purecomm generates customs documentation for the cross-border shipment, and the customer just sees the local market landed price, including all tax and duty. Everything else is invisible.</p>
-      </div>
       <div class="partner-cell">
         <h3>Vendor Dropship</h3>
         <img src="assets/img/vendor.png" alt="">
@@ -231,6 +250,12 @@
         <img src="assets/img/franchise.png" alt="">
         <p>Rethink the conflict between the online brand website and the local market franchise partner. There's no need to confuse the customer with a plethora of competing local market websites.</p>
         <p>With Purecomm, the sales associate can introduce a customer to the flagship online store, knowing that an order placed online will be routed to their store for shipping, and credited to them for sales commission.</p>
+      </div>
+      <div class="partner-cell">
+        <h3>Regional consolidation</h3>
+        <img src="assets/img/regional.png" alt="">
+        <p>Extend your online product selection across Asia Pacific with a centralised pool of inventory in Hong Kong. Our 3PL partners can manage the process end-to-end.</p>
+        <p>Purecomm generates customs documentation for the cross-border shipment, and the customer just sees the local market landed price, including all tax and duty. Everything else is invisible.</p>
       </div>
     </div>
   </div>
@@ -246,7 +271,7 @@
                 <p>Hong Kong</p>
                 <div class="contact">
                     <p><a href="tel: +852 2559 1918">Tel: +852 2559 1918</a></p>
-                    <p>Email: contact@purecomm.com</p>
+                    <p><a href="mailto:contact@purecomm.com">Email: contact@purecomm.com</a></p>
                 </div>
             </div>
             
@@ -257,9 +282,9 @@
                         <li><a href="solutions/#click">Click & Collect</a></li>
                         <li><a href="solutions/#returns">In-store Returns</a></li>
                         <li><a href="solutions/#aisle">Endless Aisle</a></li>
-                        <li><a href="solutions/#store">Fulfill from Store</a></li>
+                        <li><a href="solutions/#store">Ship from Store</a></li>
                         <li><a href="solutions/#customer">Customer Care</a></li>
-                        <li><a href="solutions/#partner">Partner Fulfilment</a></li>
+                        <li><a href="solutions/#partner">Dropship & Partner Fulfilment</a></li>
                     </ul>
                 </div>
         

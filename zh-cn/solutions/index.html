@@ -7,12 +7,13 @@
     <title>Purecomm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="shortcut icon" href="assets/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">   
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="main.min.css" rel="stylesheet">
     <link href="solutions/style.min.css" rel="stylesheet">
+
     
 </head>
  
@@ -51,11 +52,11 @@
 					</li>
 				
 					<li><a class="main-links contact"  href="#contact" ></a></li>
-					<li><a class="languages main-links"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">官话</a>
+					<li><a class="languages main-links"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">简体中文</a>
 						<ul class="nav-dropdown">
 							<li><a onClick="changeLanguage('en')" hreflang="en"><img class="flag" src="assets/img/flags/en.png" alt="">English</a></li>
-							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">官话</a></li>
-							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">廣東話</a></li>
+							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">简体中文</a></li>
+							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">繁体中文</a></li>
 							<li><a onclick="changeLanguage('jp-jp')" hreflang="jp-jp"><img class="flag" src="assets/img/flags/jp-jp.png" alt="">日本語</a></li>
 							<li><a onclick="changeLanguage('ko-kr')" hreflang="ko-kr"><img class="flag" src="assets/img/flags/ko-kr.png" alt="">한국어</a></li>
 							<li><a onclick="changeLanguage('th-th')" hreflang="th-th"><img class="flag" src="assets/img/flags/th-th.png" alt="">ภาษาไทย</a></li>
@@ -86,7 +87,7 @@
 
 <section class="click-and-collect wrapper">
   <div class="click-collect-container h2">
-    <h2><span></span><span class="solutions-highlight">1 </span><span>2</span></h2>
+    <h2><span></span>1 <span>2</span></h2>
   </div>
   <div class="click-collect-container img-container">
       <img  srcset="assets/img/click-cropped-300w.png 300w,
@@ -107,7 +108,7 @@
 <div class="middle">
 <section class="click-and-collect wrapper">
       <div class="click-collect-container h2">
-        <h2><span></span><span class="solutions-highlight">1 </span><span>2</span></h2>
+        <h2><span></span>1 <span>2</span></h2>
       </div>
       <div class="click-collect-container img-container">
         <img srcset="assets/img/returns-cropped-300w.png 300w,
@@ -127,7 +128,7 @@
 
 <section class="click-and-collect wrapper">
   <div class="click-collect-container h2">
-    <h2><span class="solutions-highlight">1 </span><span>2</span></h2>
+    <h2>1 <span>2</span></h2>
   </div>
     <div class="click-collect-container img-container">
       <img srcset="assets/img/aisle-cropped-300w.png 300w, 
@@ -141,6 +142,27 @@
       <p></p>
     </div>
 </section>
+
+<div class="placeholder" id="ship-from-store"></div>
+
+<div class="middle">
+  <section class="click-and-collect wrapper">
+    <div class="click-collect-container h2">
+      <h2>Ship from Store</h2>
+    </div>
+      <div class="click-collect-container img-container">
+        <img srcset="assets/img/ship-from-store-300w.png 300w, 
+                    assets/img/ship-from-store.png 800w"
+              sizes="(max-width: 480px) 300px,
+                    800px" 
+            src="assets/img/ship-from-store.png" alt="">
+      </div>
+      <div class="click-collect-container info-container">
+        <p></p>
+        <p></p>
+      </div>
+  </section>
+</div>
 
 <div class="placeholder" id="store"></div>
 <section class="store-fulfilment">
@@ -167,59 +189,56 @@
 </section>
 
 <div class="placeholder" id="customer"></div>
-<div class="wrapper">
-<div class="wrapper-paragraph customer-care">
-  <h2><span></span><span class="solutions-highlight">1 </span><span>2</span></h2>
-  <div class="customer-care-container">
-    <div class="customer-care-cell">
-      <h3></h3>
-      <div class="customer-img">
-        <img src="assets/img/adjustments.png" alt="">
-      </div>
-      <p></p>
-      <p></p>
-    </div>
-    <div class="customer-care-cell">
-      <h3></h3>
-      <div class="customer-img">
-        <img src="assets/img/discounts.png" alt="">
-      </div>
-      <p></p>
-      <p></p>
+<div class="customer-background">
+  <div class="wrapper">
+    <div class="customer-care">
+      <h2><span></span><span class="solutions-highlight">1 </span><span>2</span></h2>
+      <div class="customer-care-container">
+        <div class="customer-care-cell">
+          <h3></h3>
+          <div class="customer-img">
+            <img src="assets/img/adjustments.png" alt="">
+          </div>
+          <p></p>
+          <p></p>
         </div>
-    </div>
-    <div class="customer-care-container">
-    <div class="customer-care-cell">
-      <h3></h3>
-      <div class="customer-img">
-        <img src="assets/img/fraud.png" alt="">
+        <div class="customer-care-cell">
+          <h3></h3>
+          <div class="customer-img">
+            <img src="assets/img/discounts.png" alt="">
+          </div>
+          <p></p>
+          <p></p>
+            </div>
+        </div>
+        <div class="customer-care-container">
+        <div class="customer-care-cell">
+          <h3></h3>
+          <div class="customer-img">
+            <img src="assets/img/fraud.png" alt="">
+          </div>
+          <p>SOLUTIONS_CUSTOMER_CARE_SUBP5</p>
+          <p>SOLUTIONS_CUSTOMER_CARE_SUBP6</p>
+        </div>
+        <div class="customer-care-cell">
+          <h3></h3>
+          <div class="customer-img">
+            <img src="assets/img/customer.png" alt="">
+          </div>
+          <p>SOLUTIONS_CUSTOMER_CARE_SUBP7</p>
+          <p>SOLUTIONS_CUSTOMER_CARE_SUBP8</p>
+        </div>
       </div>
-      <p>SOLUTIONS_CUSTOMER_CARE_SUBP5</p>
-      <p>SOLUTIONS_CUSTOMER_CARE_SUBP6</p>
     </div>
-    <div class="customer-care-cell">
-      <h3></h3>
-      <div class="customer-img">
-        <img src="assets/img/customer.png" alt="">
-      </div>
-      <p>SOLUTIONS_CUSTOMER_CARE_SUBP7</p>
-      <p>SOLUTIONS_CUSTOMER_CARE_SUBP8</p>
     </div>
-  </div>
 </div>
-</div>
+
 
 <div class="placeholder" id="partner"></div>
 <section class="partner-dropship">
   <div class="wrapper">
     <h2><span></span><span class="solutions-highlight">1 </span><span>2</span></h2>
     <div class="partner-container">
-      <div class="partner-cell">
-        <h3></h3>
-        <img src="assets/img/regional.png" alt="">
-        <p></p>
-        <p></p>
-      </div>
       <div class="partner-cell">
         <h3></h3>
         <img src="assets/img/vendor.png" alt="">
@@ -231,6 +250,12 @@
         <img src="assets/img/franchise.png" alt="">
         <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP5</p>
         <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP6</p>
+      </div>
+      <div class="partner-cell">
+        <h3></h3>
+        <img src="assets/img/regional.png" alt="">
+        <p></p>
+        <p></p>
       </div>
     </div>
   </div>
@@ -246,7 +271,7 @@
                 <p>FOOTER_COUNTRY</p>
                 <div class="contact">
                     <p><a href="tel: +852 2559 1918"></a></p>
-                    <p></p>
+                    <p><a href="mailto:contact@purecomm.com"></a></p>
                 </div>
             </div>
             

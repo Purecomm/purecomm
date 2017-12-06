@@ -100,10 +100,10 @@
     .gallery-cell h1 {
       margin-top: 60px;   }
   button.flickity-prev-next-button {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background: none;
-    top: 75%;   }
+    top: 80%;   }
 }
 
 .section1 {
@@ -222,11 +222,15 @@
       list-style: none;
       line-height: 5.6;
       padding-left: 10%; }
-      .diagram-container .diagram-heading p {
-        margin-bottom: 9%;
-        padding-right: 5%;
-        color: #000000;
-        font-weight: 500; }
+      .diagram-container .diagram-list ul li {
+        white-space: nowrap; }
+    .diagram-container .diagram-heading p {
+      margin-bottom: 9%;
+      color: #000000;
+      font-weight: 500;
+      text-align: center; }
+      .diagram-container .diagram-heading p span {
+        display: block; }
 
 @media (max-width: 845px) {
   .diagram-container .diagram-img {
@@ -235,14 +239,7 @@
       line-height: 3.8;   }
 }
 
-@media (max-width: 750px) {
-  .diagram-heading {
-    text-align: center;   }
-    .diagram-heading span {
-      display: block;   }
-}
-
-@media (max-width: 580px) {
+@media (max-width: 590px) {
   .diagram-container .diagram-img {
     width: 150px;   }
     .diagram-container .diagram-list ul {
@@ -251,14 +248,22 @@
         width: 25%;   }
 }
 
-@media (max-width: 470px) {
-  .diagram-container .diagram-list ul li.line-break {
-    line-height: 1;   }
+@media (max-width: 462px) {
+  .diagram-container .diagram-list ul {
+    line-height: 3;   }
+    .diagram-container .diagram-list li.line-break {
+      white-space: normal;
+      line-height: 1;   }
 }
 
 @media (max-width: 420px) {
   .section2 p {
     font-weight: 500;   }
+  .diagram-container .diagram-list ul {
+    line-height: 1;   }
+    .diagram-container .diagram-list ul li {
+      padding-top: 10px;
+      padding-bottom: 10px;   }
 }
 
 @media (max-width: 340px) {

@@ -222,7 +222,9 @@ body {
 }
 
 button.flickity-prev-next-button {
-  background-color: transparent; }
+  background-color: transparent;
+  width: 60px;
+  height: 60px; }
   button.flickity-prev-next-button:hover {
     background: transparent; }
 
@@ -303,7 +305,8 @@ a.active {
           background-color: transparent; }
           nav ul li ul li a {
             padding: 15px;
-            line-height: 20px; }
+            line-height: 20px;
+            cursor: pointer; }
 
 nav a.languages {
   min-width: 125px;
@@ -316,7 +319,8 @@ nav a.languages {
   max-width: 200px; }
 
   a.languages.main-links {
-    padding-right: 0px; }
+    padding-right: 0px;
+    cursor: pointer; }
 
     .nav-dropdown {
       position: absolute;
@@ -429,19 +433,21 @@ h4.homepage-highlight {
         text-decoration: none;
         color: #ffffff;
         font-size: 16px; }
-        footer .container .location {
-          color: #ffffff;
-          font-weight: 600;
-          letter-spacing: 1px;
-          margin-top: 20px;
-          margin-bottom: 20px; }
-          footer .container .location h4 {
-            margin-bottom: 30px; }
-            footer .container .location p {
-              color: #ffffff;
-              line-height: 6px;
-              font-weight: 200;
-              font-size: 16px; }
+        footer .container a:hover {
+          color: #FFDC00; }
+      footer .container .location {
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        footer .container .location h4 {
+          margin-bottom: 30px; }
+          footer .container .location p {
+            color: #ffffff;
+            line-height: 6px;
+            font-weight: 200;
+            font-size: 16px; }
       footer .container .footer-info-container {
         display: flex;
         justify-content: space-between; }

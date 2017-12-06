@@ -103,21 +103,18 @@
             display: flex;
             justify-content: center; }
             .software-container .price-container .price-container-second .price {
-              width: 50%;
-              margin-left: 40px;
-              margin-right: 10px; }
+              width: 50%; }
               .software-container .price-container .price-container-second .price h3 {
                 margin-bottom: 1%;
                 margin-top: 5%;
-                font-size: 25px; }
+                font-size: 30px; }
             .software-container .price-container .price-container-second .per-store {
               width: 50%;
-              margin-right: 50px;
               border-left: 1px solid #ffd988; }
               .software-container .price-container .price-container-second .per-store h3 {
                 margin-bottom: 1%;
                 margin-top: 5%;
-                font-size: 25px; }
+                font-size: 30px; }
     .software-container .border {
       border-bottom: 1px solid #ffd988;
       height: 0px;
@@ -135,7 +132,6 @@
         padding-top: 5%; }
         .software-container .price-options ul {
           margin-top: 0px;
-          padding-left: 10%;
           font-family: 'Source Sans Pro', sans-serif;
           letter-spacing: 1px;
           font-weight: 800; }
@@ -175,15 +171,15 @@
   @media (max-width: 1000px) {
     .software-container .software-cell {
       width: 260px;   }
-      .software-container .price-container .price-container-second .per-store {
-        border-left: 0px;   }
-    .software-container .price-options ul {
-      padding-right: 2%;   }
+      .software-container .price-options ul {
+        padding-right: 2%;   }
 }
 
-@media (max-width: 800px) {
-  .software-service {
-    margin-top: 0px;   }
+@media (max-width: 805px) {
+  .software-container .price-options {
+    height: 210px;   }
+    .software-container .software-service {
+      margin-top: 0px;   }
 }
 
 @media (max-width: 715px) {
@@ -192,37 +188,25 @@
     .software-container .software-cell {
       width: 100%;
       margin-left: 0px;   }
-      .software-container .price-container .padding {
-        padding-bottom: 0;   }
-        .software-container .price-container .price-container-second {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          padding-top: 2%;   }
-          .software-container .price-container .price-container-second .price {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            margin-left: 0px;   }
-            .software-container .price-container .price-container-second .price .price-p {
-              display: flex;   }
-              .software-container .price-container .price-container-second .price .price-p .price-bold:first-child {
-                margin-left: 10px;
-                margin-right: 7px;   }
-          .software-container .price-container .price-container-second .per-store {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            margin-right: 0px;   }
-            .software-container .price-container .price-container-second .per-store .price-bold {
-              margin-left: 10px;   }
+      .software-container .price-container .price-container-second .price {
+        width: 25%;   }
+        .software-container .price-container .price-container-second .per-store {
+          width: 25%;   }
+          .software-container .price-container .price-container-second .per-store .price-bold {
+            margin-left: 10px;   }
     .software-container .price-options {
-      padding-top: 4%;   }
+      padding-top: 4%;
+      height: 200px;   }
       .software-container .price-options ul li {
         margin-top: 2%;
         font-weight: 500;   }
+}
+
+@media (max-width: 480px) {
+  .software-container .price-container .price-container-second .price {
+    width: 40%;   }
+    .software-container .price-container .price-container-second .per-store {
+      width: 40%;   }
 }
 
 .best-practice {
@@ -248,6 +232,7 @@
         padding-left: 15%; }
         .integrations-container .diagram-heading p {
           margin-bottom: 15%;
+          width: 200px;
           padding-right: 5%;
           color: #000000;
           font-weight: 500; }
@@ -257,6 +242,12 @@
     text-align: center;   }
     .diagram-heading span {
       display: block;   }
+}
+
+@media (max-width: 650px) {
+  .integrations-container .diagram-heading p {
+    width: auto;
+    padding-right: 10%;   }
 }
 
 @media (max-width: 580px) {
@@ -313,5 +304,7 @@
     padding-bottom: 5%;
     background-color: #f6f6f6; }
     .our-values span.highlight {
-      color: #efbf33;
       font-weight: 700; }
+      .our-values span.highlight a {
+        text-decoration: none;
+        color: #efbf33; }
