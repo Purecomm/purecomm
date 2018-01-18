@@ -2,43 +2,57 @@
   height: 70vh;
   margin-bottom: 2px; }
 
-  .gallery-cell {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .gallery-cell h1 {
-      font-weight: 500;
-      font-size: 35px;
-      margin-bottom: 0px;
-      margin-top: 0px;
-      letter-spacing: 1px; }
-      .gallery-cell p {
-        font-size: 20px;
-        width: 60%;
-        line-height: 1.4rem;
-        letter-spacing: 1px;
-        color: #000000;
+  button.flickity-prev-next-button {
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    top: 55%; }
+    button.flickity-prev-next-button:hover {
+      background: transparent; }
+
+div.retail-image.left-margin {
+  margin-left: 0px; }
+
+  div.retail-image.right-margin {
+    margin-right: 0px; }
+
+    .gallery-cell {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .gallery-cell h1 {
         font-weight: 500;
-        text-align: center; }
-        .gallery-cell a {
-          background: linear-gradient(to bottom, black, #4a4a4a);
-          border: none;
-          text-decoration: none;
-          color: #ffffff;
-          width: 150px;
-          text-align: center;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          border-radius: 2px;
-          letter-spacing: 1px; }
-          .gallery-cell a:hover {
-            color: #efbf33;
-            transition: color 0.5s ease; }
-    .gallery-cell .align {
-      text-align: right; }
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        letter-spacing: 1px; }
+        .gallery-cell p {
+          font-size: 20px;
+          width: 60%;
+          line-height: 1.4rem;
+          letter-spacing: 1px;
+          color: #000000;
+          font-weight: 500;
+          text-align: center; }
+          .gallery-cell a {
+            background: linear-gradient(to bottom, black, #4a4a4a);
+            border: none;
+            text-decoration: none;
+            color: #ffffff;
+            width: 150px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 2px;
+            letter-spacing: 1px; }
+            .gallery-cell a:hover {
+              color: #efbf33;
+              transition: color 0.5s ease; }
+      .gallery-cell .align {
+        text-align: right; }
 
 .hero-1 {
   background-image: url(assets/img/hero1.png);
@@ -67,10 +81,13 @@
 }
 
 @media (max-width: 800px) {
-  .gallery-cell h1 {
-    font-size: 30px;   }
-    .gallery-cell p {
-      font-size: 18px;   }
+  button.flickity-prev-next-button {
+    width: 45px;
+    height: 45px;   }
+    .gallery-cell h1 {
+      font-size: 30px;   }
+      .gallery-cell p {
+        font-size: 18px;   }
 }
 
 @media (max-width: 700px) {
@@ -87,9 +104,14 @@
         padding-top: 5px;
         padding-bottom: 5px;   }
   button.flickity-prev-next-button {
-    top: 70%;   }
+    top: 55%;   }
     h1.first-header {
       width: 90%;   }
+}
+
+@media (max-width: 550px) {
+  button.flickity-prev-next-button {
+    top: 65%;   }
 }
 
 @media (max-width: 420px) {
@@ -99,9 +121,11 @@
     padding-bottom: 3px;   }
     .gallery-cell h1 {
       margin-top: 60px;   }
+      .gallery-cell h1.first-header {
+        margin-top: 40px;   }
   button.flickity-prev-next-button {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background: none;
     top: 80%;   }
 }
@@ -127,7 +151,8 @@
           color: #efbf33; }
       .section1 .main-benefits .benefits-container .benefits-info img {
         width: 100%;
-        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); }
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+        border-radius: 5px; }
 
 @media (max-width: 1012px) {
   .section1 .main-benefits .benefits-container h3 {

@@ -180,22 +180,32 @@ body {
                                                                                           margin: 0 auto; }
 
                                                                                           .placeholder {
-                                                                                            margin-top: -90px;
-                                                                                            padding-top: 90px; }
+                                                                                            padding-top: 90px;
+                                                                                            margin-top: -90px; }
 
-                                                                                            .placeholder-homepage {
-                                                                                              margin-top: -50px;
-                                                                                              padding-top: 50px; }
+                                                                                            .footer-placeholder {
+                                                                                              padding-top: 68px;
+                                                                                              margin-top: -68px; }
 
-                                                                                              h2 {
-                                                                                                font-size: 30px;
-                                                                                                text-align: center;
-                                                                                                font-weight: 500;
-                                                                                                letter-spacing: 2px;
-                                                                                                color: black;
-                                                                                                margin-top: 30px; }
-                                                                                                h2 span.homepage-highlight {
-                                                                                                  color: #efbf33; }
+                                                                                              .placeholder-homepage {
+                                                                                                margin-top: -50px;
+                                                                                                padding-top: 50px; }
+
+                                                                                                @media (max-width: 800px) {
+                                                                                                  .placeholder {
+                                                                                                    padding-top: 70px;
+                                                                                                    margin-top: -70px;   }
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: black;
+  margin-top: 30px; }
+  h2 span.homepage-highlight {
+    color: #efbf33; }
 
 .section-highlight {
   color: #efbf33; }
@@ -219,39 +229,6 @@ body {
     display: block;
     margin-top: 2px;
     margin-bottom: 2px;   }
-}
-
-button.flickity-prev-next-button {
-  background-color: transparent;
-  width: 60px;
-  height: 60px; }
-  button.flickity-prev-next-button:hover {
-    background: transparent; }
-
-div.retail-image.left-margin {
-  margin-left: 0px; }
-
-  div.retail-image.right-margin {
-    margin-right: 0px; }
-
-    @media (max-width: 800px) {
-      button.flickity-prev-next-button {
-        top: 60%;
-        width: 45px;
-        height: 45px;   }
-}
-
-@media (max-width: 700px) {
-  button.flickity-prev-next-button {
-    top: 70%;   }
-}
-
-@media (max-width: 420px) {
-  button.flickity-prev-next-button {
-    width: 40px;
-    height: 40px;
-    background: none;
-    top: 75%;   }
 }
 
 a.active {
@@ -312,7 +289,8 @@ nav a.languages {
   min-width: 125px;
   text-align: right; }
   nav a.languages:not(:only-child):after {
-    content: ''; }
+    padding-left: 4px;
+    content: ' ▾'; }
 
 .nav-dropdown.set-width {
   min-width: 200px;
@@ -342,6 +320,8 @@ nav a.languages {
 
           .nav-list a.main-links.separate {
             padding-right: 15px; }
+            .nav-list a.overview {
+              padding-right: 15px; }
 
 @media (max-width: 860px) {
   .main-links.contact {
@@ -365,8 +345,10 @@ nav a.languages {
               padding: 15px;
               line-height: 20px;
               background: #4a4a4a;   }
-              nav ul li ul li a {
-                font-weight: 300;   }
+              nav ul li a:hover {
+                color: white;   }
+            nav ul li ul li a {
+              font-weight: 300;   }
   .nav-dropdown {
     position: static;   }
     .nav-wrapper {
@@ -401,7 +383,7 @@ nav a.languages {
   #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     cursor: pointer;
     border-radius: 1px;
-    height: 5px;
+    height: 2px;
     width: 35px;
     background: #ffffff;
     position: absolute;
@@ -493,33 +475,48 @@ h4.homepage-highlight {
 .bottom img {
   display: none; }
 
-  @media (max-width: 700px) {
-    footer {
-      padding-top: 20px;
-      padding-bottom: 20px;   }
-      footer .container {
+  @media (max-width: 850px) {
+    footer .container .footer-info-container .solutions {
+      margin-right: 45px;   }
+}
+
+@media (max-width: 790px) {
+  footer .container .footer-info-container .solutions {
+    margin-right: 35px;   }
+}
+
+@media (max-width: 715px) {
+  footer .container .footer-info-container .solutions {
+    margin-right: 15px;   }
+}
+
+@media (max-width: 700px) {
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;   }
+    footer .container {
+      flex-direction: column;   }
+      footer .container .location h4 {
+        margin-bottom: 5px;   }
+      footer .container .footer-info-container {
         flex-direction: column;   }
-        footer .container .location h4 {
-          margin-bottom: 5px;   }
-        footer .container .footer-info-container {
-          flex-direction: column;   }
-          footer .container .footer-info-container .work ul {
-            padding-bottom: 20px;   }
-          footer .container .footer-info-container .solutions {
-            margin-right: 0px;   }
-      footer .bottom {
-        position: relative;   }
-        footer .bottom img {
-          display: inline-block;
-          position: absolute;
-          right: 30px;
-          bottom: 0px;
-          margin-top: 0px;
-          width: 180px;   }
-      footer h4 {
+        footer .container .footer-info-container .work ul {
+          padding-bottom: 20px;   }
+        footer .container .footer-info-container .solutions {
+          margin-right: 0px;   }
+    footer .bottom {
+      position: relative;   }
+      footer .bottom img {
         display: inline-block;
+        position: absolute;
+        right: 30px;
+        bottom: 0px;
         margin-top: 0px;
-        margin-bottom: 0px;   }
+        width: 180px;   }
+    footer h4 {
+      display: inline-block;
+      margin-top: 0px;
+      margin-bottom: 0px;   }
 }
 
 @media (max-width: 360px) {

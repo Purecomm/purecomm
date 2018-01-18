@@ -229,13 +229,16 @@
       .integrations-container .diagram-list ul {
         list-style: none;
         line-height: 5.8;
-        padding-left: 15%; }
-        .integrations-container .diagram-heading p {
-          margin-bottom: 15%;
-          width: 200px;
-          padding-right: 5%;
-          color: #000000;
-          font-weight: 500; }
+        padding-left: 10%;
+        width: 100%; }
+        .integrations-container .diagram-list ul li {
+          white-space: nowrap; }
+      .integrations-container .diagram-heading p {
+        margin-bottom: 15%;
+        width: 200px;
+        padding-right: 5%;
+        color: #000000;
+        font-weight: 500; }
 
 @media (max-width: 750px) {
   .diagram-heading {
@@ -244,13 +247,18 @@
       display: block;   }
 }
 
+@media (max-width: 710px) {
+  .integrations-container .diagram-list ul {
+    line-height: 5;   }
+}
+
 @media (max-width: 650px) {
   .integrations-container .diagram-heading p {
     width: auto;
     padding-right: 10%;   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 590px) {
   .integrations-container .diagram-img {
     width: 200px;   }
     .integrations-container .diagram-list ul {
@@ -259,9 +267,13 @@
         width: 25%;   }
 }
 
-@media (max-width: 480px) {
-  .integrations-container .diagram-heading p {
-    margin-bottom: 35%;   }
+@media (max-width: 490px) {
+  .integrations-container .diagram-img {
+    width: 150px;   }
+    .integrations-container .diagram-list ul {
+      line-height: 3;   }
+      .integrations-container .diagram-heading p {
+        margin-bottom: 35%;   }
 }
 
 @media (max-width: 480px) {
@@ -269,11 +281,21 @@
     margin-bottom: 50%;   }
 }
 
+@media (max-width: 420px) {
+  .integrations-container .diagram-heading p {
+    margin-bottom: 65%;   }
+    .integrations-container .diagram-list ul {
+      line-height: 3;   }
+      .integrations-container .diagram-list li.line-break {
+        white-space: normal;
+        line-height: 1;   }
+}
+
 @media (max-width: 380px) {
   .integrations-container .diagram-img {
     width: 150px;   }
     .integrations-container .diagram-list ul {
-      line-height: 3;   }
+      line-height: 2.6;   }
 }
 
 @media (max-width: 340px) {
