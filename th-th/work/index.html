@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="th-th">
+
+<head>
+    <base href="/th-th/">
+    <meta charset="utf-8">
+    <title>Purecomm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">   
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="main.min.css" rel="stylesheet">
+    <link href="work/style.min.css" rel="stylesheet">
+
+    
+</head>
+ 
+<body>
+
+    <section class="navigation clearfix">
+		<div class="nav-wrapper clearfix"> 
+			<div class="brand brand-wrapper">
+				<a href="/th-th/"><img src="assets/img/logo-white.png" alt="Purecomm"></a>
+			</div>
+			<nav> 
+				<div class="nav-mobile brand-wrapper">
+					<a id="nav-toggle"><span></span></a>
+				</div>
+				<ul class="nav-list">
+					<li><a href="/th-th/" class="overview">หน้ารวม</a></li>
+					<li><a href="solutions" class="main-links separate selected">การแก้ปัญหาของเรา</a>
+						<ul class="nav-dropdown set-width items">
+							<li><a href="solutions/#click">คลิกแล้วรับสินค้า</a></li> 
+							<li><a href="solutions/#returns">บริการคืนสินค้าที่ร้าน</a></li>
+							<li><a href="solutions/#aisle">ชั้นวางที่ไร้ขีดจำกัด</a></li>
+							<li><a href="solutions/#store">ส่งตรงจากร้าน</a></li>
+							<li><a href="solutions/#customer">ความใส่ใจต่อลูกค้า</a></li>
+							<li><a href="solutions/#partner">การกระจายสินค้าให้พันธมิตรของเรา</a></li>
+						</ul>
+					</li>
+					<li><a href="work" class="main-links separate select">แนวทางการทำงานของเรา</a>
+						<ul class="nav-dropdown set-width">
+							<li><a href="work/#service">บริการด้วยซอฟต์แวร์</a></li>
+							<li><a href="work/#practice">มอบแนวทางการปฏิบัติงานที่ดีที่สุด</a></li>
+							<li><a href="work/#integrations">การบูรณาการที่ใช้ได้ไม่รู้จบ</a></li>
+							<li><a href="work/#collaboration">ความร่วมมือกับพันธมิตร</a></li>
+							<li><a href="work/#success">แบ่งปันความสำเร็จ</a></li>
+							<li><a href="work/#values">ยึดมั่นในค่านิยม</a></li>
+						</ul>
+					</li>
+				
+					<li><a class="main-links contact"  href="#contact" >ติดต่อเรา</a></li>
+					<li><a class="languages main-links"><img class="flag" src="assets/img/flags/th-th.png" alt="">ภาษาไทย</a>
+						<ul class="nav-dropdown">
+							<li><a onClick="changeLanguage('en')" hreflang="en"><img class="flag" src="assets/img/flags/en.png" alt="">English</a></li>
+							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">简体中文</a></li>
+							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">繁体中文</a></li>
+							<li><a onclick="changeLanguage('jp-jp')" hreflang="jp-jp"><img class="flag" src="assets/img/flags/jp-jp.png" alt="">日本語</a></li>
+							<li><a onclick="changeLanguage('ko-kr')" hreflang="ko-kr"><img class="flag" src="assets/img/flags/ko-kr.png" alt="">한국어</a></li>
+							<li><a onclick="changeLanguage('th-th')" hreflang="th-th"><img class="flag" src="assets/img/flags/th-th.png" alt="">ภาษาไทย</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div> 
+	</section>
+
+    <main>
+    <section class="sub-nav">
+    <div class="work-nav wrapper">
+        <ul class="work-links">
+            <li><a href="#service">บริการด้วยซอฟต์แวร์</a></li>
+            <li><a href="#practice">มอบแนวทางการปฏิบัติงานที่ดีที่สุด</a></li>
+            <li><a href="#integrations">การบูรณาการที่ใช้ได้ไม่รู้จบ</a></li>
+            <li><a href="#collaboration">ความร่วมมือกับพันธมิตร</a> </li>
+            <li><a href="#success">แบ่งปันความสำเร็จ</a></li>
+            <li><a href="#values">ยึดมั่นในค่านิยม</a>
+            </li>
+        </ul>
+    </div>
+</section>
+<div id="service" class="placeholder"></div>
+<div class="work-header" ><h1>ใช้งานง่าย เชื่อถือได้ และสนับสนุนการร่วมมือ</h1></div>
+    
+<section class="software-service wrapper">
+    <h2><span></span><span class="section-highlight">บริการ</span><span> ด้วยซอฟต์แวร์</span></h2>
+    <div class="software-container">
+
+        <div class="software-cell">
+            <div class="title">
+                <h3>ระดับเริ่มต้น</h3> 
+            </div>
+
+            <div class="price-container">
+                <p class="padding">ประกอบด้วย</p>
+                <div class="price-container-second first-child">
+                    <div class="price">
+                        <h3>10k+</h3>
+                        <div class="price-p">
+                            <p class="price-bold">จำนวนคำสั่งซื้อต่อปี</p>
+                        </div>
+                    </div>
+                    <div class="per-store">
+                        <h3>25+</h3>
+                        <p class="price-bold">จำนวนร้านค้า</p>
+                    </div>
+                </div>
+                <div class="border"></div>
+            </div>
+        
+    
+ 
+            <div class="price-options first-child">
+                <ul>
+                    <div class="bonus">
+                        <li>บริการคลิกแล้วรับสินค้า</li>
+                        <li>บริการคืนสินค้าที่ร้าน</li>
+                        <li>บริการการปรับเปลี่ยนและยกเลิกการซื้อ</li>
+                        <li>บริการส่งสินค้าผ่านผู้ให้บริการที่หลากหลาย</li>
+                    </div>
+                </ul>
+            </div>	
+        </div>
+
+        <div class="software-cell middle">
+            <div class="title">
+                <h3>ระดับมาตรฐาน</h3>
+            </div>
+
+            <div class="price-container">
+                <p class="padding">ประกอบด้วย</p>
+                <div class="price-container-second">
+                    <div class="price">
+                        <h3>100k+</h3>
+                        <div class="price-p">
+                            <p class="price-bold">จำนวนคำสั่งซื้อต่อปี</p>
+
+                        </div>
+                    </div>
+                    <div class="per-store">
+                        <h3>60+</h3>
+                        <p class="price-bold">จำนวนร้านค้า</p>
+                    </div>
+                </div>
+                <div class="border"></div>
+            </div>
+
+            <div class="price-options">
+                <ul>บริการของระดับเริ่มต้น และ .... 
+                    <div class="bonus">
+                        <li>บริการเติมเต็มสินค้าจากทุกร้าน</li>
+                        <li>บริการชั้นวางที่ไร้ขีดจำกัด</li>
+                        <li>บริการส่วนลดและของปลอบใจ</li>
+                        <li>บริการบูรณาการช่องทางการขาย</li>
+                    </div>
+                </ul>
+            </div>	
+        </div>
+
+        <div class="software-cell">
+            <div class="title">
+                <h3>ระดับกิจการ</h3>
+            </div>
+            <div class="price-container">
+                <p class="padding">ประกอบด้วย</p>
+                <div class="price-container-second">
+                    <div class="price">
+                        <h3>250k+</h3>
+                        <div class="price-p">
+                            <p class="price-bold">จำนวนคำสั่งซื้อต่อปี</p>
+                        </div>
+                    </div>
+                    <div class="per-store">
+                        <h3>125+</h3>
+                        <p class="price-bold">จำนวนร้านค้า</p>
+                    </div>
+                </div>
+                <div class="border"></div>
+            </div>
+    
+
+            <div class="price-options">
+                <ul>บริการของระดับมาตรฐาน และ ...
+                    <div class="bonus">
+                        <li>บริการหลายแบรนด์ หลายสกุลเงิน</li>
+                        <li>บริการการกระจายและส่งสินค้าให้พันธมิตร</li>
+                        <li>บริการการป้องกันการโกงที่แนบเนียน</li>
+                        <li>บริการให้ลูกค้าบริการตัวเอง</li>
+                    </div>
+                </ul>
+            </div>	
+        </div>
+    </div>
+</section>
+
+    <!-- BEST PRACTICE SECTION -->
+
+<div id="practice" class="placeholder"></div>
+<section class="best-practice">
+    <div class="wrapper">
+        <div class="best-practice-container">
+            <h2><span></span><span class="section-highlight">นำเสนอ</span><span>วิธีการทำงานที่ดีที่สุด</span></h2>
+            <div class="wrapper-paragraph">
+                <p>ทำให้กระบวนการทำงานที่นอกกรอบของเรานั้นใช้งานได้ง่าย และเชื่อถือได้</p>
+                <p>Purecomm เสนอตัวชี้วัดและตัวเปรียบเทียบที่สามารถพิสูจน์ได้ เพื่อช่วยผลักดันพฤติกรรมที่ยึดลูกค้าเป็นศูนย์กลางให้เกิดขึ้นในธุรกิจ และวัดความสำเร็จที่เกิดขึ้นจากการใช้บริการของเรา</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- REUSABLE INTEGRATIONS SECTION  -->
+
+<div id="integrations" class="placeholder"></div>
+<section class="reusable-integrations">
+    <div class="wrapper">
+    <h2><span></span><span class="section-highlight">การบูรณาการ</span><span> ที่นำมาใช้ได้ตลอด</span></h2>
+        <div class="wrapper-paragraph">
+            <div class="integrations-container wrapper">
+                <div class="integrations-cell diagram-heading">
+                    <p>การซื้อขายและธุรกรรมต่างๆ</p>
+                </div>
+                <div class="integrations-cell diagram-img">
+                    <img src="assets/img/integrations-web.png" alt="">
+                </div>
+                <div class="integrations-cell diagram-list">
+                    <ul>
+                        <li>ระบบการจัดการการขายปลีก</li>
+                        <li class="line-break">ช่องทางการจ่ายเงิน</li>
+                        <li>การตลาดผ่านอีเมล์</li>
+                        <li>ข้อมูลลูกค้า</li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-paragraph">
+            <p>และถึงแม้ว่าโครงสร้างการปฏิบัติงานของสองระบบจะไม่เหมือนกันแต่เราสามารถลดเวลาและความพยายามในการพัฒนาระบบโดยการใช้ระบบแบบบูรณาการที่เราสร้างไว้แล้ว</p>
+        </div>
+    </div>
+</section>
+
+<!-- PARTNER COLLABORATION SECTION  -->
+
+<div id="collaboration" class="placeholder"></div>
+<section class="partner-collaboration">
+    <div class="wrapper">
+        <div class="partner-container">
+            <h2><span></span><span class="section-highlight">การร่วมมือ</span><span> กับพันธมิตร</span></h2>
+                <div class="partner-logo">
+                    <img src="assets/img/partner.png" alt="">
+                </div>
+                <div class="wrapper-paragraph">
+                    <p>Purecomm ร่วมมืออย่างใกล้ชิดกับพันธมิตรผู้เชี่ยวชาญด้านการบูรณาการระบบชั้นนำในแถบเอเชียแปซิฟิค ทำให้เราสามารถสนับสนุนแก่ผู้ค้าในแต่ละท้องที่ได้ โดยผู้ที่เชี่ยวชาญกับระบบของคุณ</p>
+                </div>
+        </div>
+    </div>
+</section>
+
+<!-- SHARING SUCCESS SECTION -->
+
+<div id="success" class="placeholder"></div>
+<section class="sharing-success">
+    <div class="wrapper">
+        <div class="success-container">
+            <h2><span></span><span class="section-highlight">แบ่งปัน</span><span> ความสำเร็จ</span></h2>
+            <div class="partner-logo">
+                <img src="assets/img/sharing.png" alt="">
+            </div>
+            <div class="wrapper-paragraph">
+                <p>ร่วมเป็นหนึ่งในชุมชนลูกค้าของเรา และรับทราบข้อมูลเชิงลึกต่างๆจากแบรนด์ที่ใช้ การจัดการคำสั่งซื้อ ได้อย่างประสบความสำเร็จ</p>
+                <p>ความสำเร็จของคุณถือเป็นความสำเร็จของเรา ที่ปรึกษาผู้เชี่ยวชาญด้าน การจัดการคำสั่งซื้อ ของเราพร้อมที่จะช่วยเหลือคุณในทุกย่างก้าวสู่ความสำเร็จ</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VALUES SECTION -->
+
+<div id="values" class="placeholder"></div>
+<section class="our-values">
+    <div class="wrapper">
+        <div class="values-container">
+            <h2><span></span><span class="section-highlight">ยึดมั่น</span><span> ตามค่านิยม</span></h2>
+            <div class="partner-logo">
+                <img src="assets/img/values.png" alt="">
+            </div>
+            <div class="wrapper-paragraph">
+                <p>เพราะการทำงานของเรานั้นง่าย เชื่อถือได้ และส่งเสริมการร่วมมือกัน</p>
+                <p>เราสร้างวิธีการแก้ปัญหาง่ายๆที่รวดเร็วและใช้ได้ง่าย</p>
+                <p>เมื่อเราสัญญาในสิ่งใด เราพยายามเต็มที่เพื่อรักษาสัญญานั้น ถ้าเราทำผิดพลาด เราเรียนรู้จากเรื่องนั้น</p>
+                <p>เรายังคงเสาะหามืออาชีพที่มีความมั่นใจในความสามารถของตนและเห็นด้วยกับค่านิยมของเรา หากคุณกำลังมองหาความท้าทาย<span class="highlight"><a href="https://hk.linkedin.com/company/bolei-digital">มาร่วมงานกับเราสิ</a></span></p>
+            </div>
+        </div>
+    </div>
+</section>  
+
+    
+     
+    <div class="footer-placeholder" id="contact"></div>
+    <footer> 
+        <div class="container wrapper">
+            <div class="location">
+                <h4 class="homepage-highlight"><span></span>สำนักงานใหญ่ฮ่องกง</h4>
+                <p>Suite 2402, 24/F, Hong Kong Plaza</p>
+                <p>188 Connaught Road West</p>
+                <p>Hong Kong</p>
+                <div class="contact">
+                    <p><a href="tel: +852 2559 1918">เบอร์ติดต่อ : +852 2559 1918</a></p>
+                    <p><a href="mailto:contact@purecomm.com">Email: contact@purecomm.com</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-info-container">
+                <div class="solutions">
+                    <h4 class="homepage-highlight">การแก้ปัญหาของเรา</h4>
+                    <ul>
+                        <li><a href="solutions/#click">คลิกแล้วรับสินค้า</a></li>
+                        <li><a href="solutions/#returns">บริการคืนสินค้าที่ร้าน</a></li>
+                        <li><a href="solutions/#aisle">ชั้นวางที่ไร้ขีดจำกัด</a></li>
+                        <li><a href="solutions/#store">ส่งตรงจากร้าน</a></li>
+                        <li><a href="solutions/#customer">ความใส่ใจต่อลูกค้า</a></li>
+                        <li><a href="solutions/#partner">การกระจายสินค้าให้พันธมิตรของเรา</a></li>
+                    </ul>
+                </div>
+        
+                <div class="work">
+                    <h4 class="homepage-highlight">แนวทางการทำงานของเรา</h4>
+                    <ul>
+                        <li><a href="work/#service">บริการด้วยซอฟต์แวร์</a></li>
+                        <li><a href="work/#practice">มอบแนวทางการปฏิบัติงานที่ดีที่สุด</a></li>
+                        <li><a href="work/#integrations">การบูรณาการที่ใช้ได้ไม่รู้จบ</a></li>
+                        <li><a href="work/#collaboration">ความร่วมมือกับพันธมิตร</a></li>
+                        <li><a href="work/#success">แบ่งปันความสำเร็จ</a></li>
+                        <li><a href="work/#values">ยึดมั่นในค่านิยม</a></li>
+                    </ul>
+                    <div class="bottom">
+                        <img src="assets/img/logo-white.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    </main>
+
+    <script type="text/javascript" src="main.min.js"></script>
+    <script type="text/javascript" src="work/script.min.js"></script>
+</body>
+
+</html>

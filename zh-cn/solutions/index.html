@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <base href="/zh-cn/">
+    <meta charset="utf-8">
+    <title>Purecomm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">   
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="main.min.css" rel="stylesheet">
+    <link href="solutions/style.min.css" rel="stylesheet">
+
+    
+</head>
+ 
+<body>
+
+    <section class="navigation clearfix">
+		<div class="nav-wrapper clearfix"> 
+			<div class="brand brand-wrapper">
+				<a href="/zh-cn/"><img src="assets/img/logo-white.png" alt="Purecomm"></a>
+			</div>
+			<nav> 
+				<div class="nav-mobile brand-wrapper">
+					<a id="nav-toggle"><span></span></a>
+				</div>
+				<ul class="nav-list">
+					<li><a href="/zh-cn/" class="overview"></a></li>
+					<li><a href="solutions" class="main-links separate selected"></a>
+						<ul class="nav-dropdown set-width items">
+							<li><a href="solutions/#click"></a></li> 
+							<li><a href="solutions/#returns"></a></li>
+							<li><a href="solutions/#aisle"></a></li>
+							<li><a href="solutions/#store"></a></li>
+							<li><a href="solutions/#customer"></a></li>
+							<li><a href="solutions/#partner"></a></li>
+						</ul>
+					</li>
+					<li><a href="work" class="main-links separate select"></a>
+						<ul class="nav-dropdown set-width">
+							<li><a href="work/#service"></a></li>
+							<li><a href="work/#practice"></a></li>
+							<li><a href="work/#integrations"></a></li>
+							<li><a href="work/#collaboration"></a></li>
+							<li><a href="work/#success"></a></li>
+							<li><a href="work/#values"></a></li>
+						</ul>
+					</li>
+				
+					<li><a class="main-links contact"  href="#contact" ></a></li>
+					<li><a class="languages main-links"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">简体中文</a>
+						<ul class="nav-dropdown">
+							<li><a onClick="changeLanguage('en')" hreflang="en"><img class="flag" src="assets/img/flags/en.png" alt="">English</a></li>
+							<li><a onclick="changeLanguage('zh-cn')" hreflang="zh-cn"><img class="flag" src="assets/img/flags/zh-cn.png" alt="">简体中文</a></li>
+							<li><a onclick="changeLanguage('zh-hk')" hreflang="zh-hk"><img class="flag" src="assets/img/flags/zh-hk.png" alt="">繁体中文</a></li>
+							<li><a onclick="changeLanguage('jp-jp')" hreflang="jp-jp"><img class="flag" src="assets/img/flags/jp-jp.png" alt="">日本語</a></li>
+							<li><a onclick="changeLanguage('ko-kr')" hreflang="ko-kr"><img class="flag" src="assets/img/flags/ko-kr.png" alt="">한국어</a></li>
+							<li><a onclick="changeLanguage('th-th')" hreflang="th-th"><img class="flag" src="assets/img/flags/th-th.png" alt="">ภาษาไทย</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div> 
+	</section>
+
+    <main>
+    <section class="sub-nav">
+  <div class="solutions-nav wrapper">
+    <ul class="solutions-links">
+      <li><a href="#click"></a></li>
+      <li><a href="#returns"></a></li>
+      <li><a href="#aisle"></a></li>
+      <li><a href="#store"></a></li>
+      <li><a href="#customer"></a></li>
+      <li><a href="#partner"></a>
+      </li>
+    </ul>
+  </div>  
+</section> 
+<div class="placeholder" id="click"></div>
+<div class="solutions-header" > <h1><span></span></h1></div>
+ 
+
+<section class="click-and-collect wrapper">
+  <div class="click-collect-container h2">
+    <h2><span></span>1 <span>2</span></h2>
+  </div>
+  <div class="click-collect-container img-container">
+      <img src="assets/img/click-cropped.png" alt="">
+  </div>
+  <div class="click-collect-container info-container">
+      <p></p>
+      <p></p> 
+  </div>
+</div>
+</section> 
+
+<div class="placeholder" id="returns"></div>
+
+<div class="middle">
+<section class="click-and-collect wrapper">
+      <div class="click-collect-container h2">
+        <h2><span></span>1 <span>2</span></h2>
+      </div>
+      <div class="click-collect-container img-container">
+        <img src="assets/img/returns-cropped.png" alt="">
+      </div> 
+      <div class="click-collect-container info-container">
+        <p></p>
+        <p></p>
+      </div>
+</section>
+</div>
+
+<div class="placeholder" id="aisle"></div>
+
+<section class="click-and-collect wrapper">
+  <div class="click-collect-container h2">
+    <h2>1 <span>2</span></h2>
+  </div>
+    <div class="click-collect-container img-container">
+      <img src="assets/img/aisle-cropped.png" alt="">
+    </div>
+    <div class="click-collect-container info-container">
+      <p></p>
+      <p></p>
+    </div>
+</section>
+
+<div class="placeholder" id="store"></div>
+
+<div class="middle">
+  <section class="click-and-collect wrapper">
+    <div class="click-collect-container h2">
+      <h2> <span></span></h2>
+    </div>
+      <div class="click-collect-container img-container">
+        <img 
+            src="assets/img/ship-from-store.png" alt="">
+      </div>
+      <div class="click-collect-container info-container">
+        <p></p>
+        <p></p>
+      </div>
+  </section>
+</div>
+
+<div class="placeholder"></div>
+<section class="store-fulfilment">
+<div class="wrapper">
+  <h2><span></span><span class="solutions-highlight">1 </span><span>2</span></h2>
+  <div class="store-fulfilment-container">
+    <div class="store">
+      <img src="assets/img/small-store.png" alt="">
+      <p></p>
+      <p></p>
+    </div>
+    <div class="store">
+      <img src="assets/img/medium-store.png" alt="">
+      <p></p>
+      <p></p>
+    </div>
+    <div class="store">
+      <img src="assets/img/big-store.png" alt="">
+      <p></p>
+      <p></p>
+    </div>
+  </div> 
+</div> 
+</section>
+
+<div class="placeholder" id="customer"></div>
+<div class="customer-background">
+  <div class="wrapper">
+    <div class="customer-care">
+      <h2><span></span><span class="solutions-highlight">1 </span><span>2</span></h2>
+      <div class="customer-care-container">
+        <div class="customer-care-cell">
+          <h3></h3>
+          <div class="customer-img">
+            <img src="assets/img/adjustments.png" alt="">
+          </div>
+          <p></p>
+          <p></p>
+        </div>
+        <div class="customer-care-cell">
+          <h3></h3>
+          <div class="customer-img">
+            <img src="assets/img/discounts.png" alt="">
+          </div>
+          <p></p>
+          <p></p>
+            </div>
+        </div>
+        <div class="customer-care-container">
+        <div class="customer-care-cell">
+          <h3></h3>
+          <div class="customer-img">
+            <img src="assets/img/fraud.png" alt="">
+          </div>
+          <p>SOLUTIONS_CUSTOMER_CARE_SUBP5</p>
+          <p>SOLUTIONS_CUSTOMER_CARE_SUBP6</p>
+        </div>
+        <div class="customer-care-cell">
+          <h3></h3>
+          <div class="customer-img">
+            <img src="assets/img/customer.png" alt="">
+          </div>
+          <p>SOLUTIONS_CUSTOMER_CARE_SUBP7</p>
+          <p>SOLUTIONS_CUSTOMER_CARE_SUBP8</p>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="placeholder" id="partner"></div>
+<section class="partner-dropship">
+  <div class="wrapper">
+    <h2><span></span><span class="solutions-highlight">1 </span><span>2</span></h2>
+    <div class="partner-container">
+      <div class="partner-cell">
+        <h3></h3>
+        <img src="assets/img/vendor.png" alt="">
+        <p></p> 
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP4</p>
+      </div>
+      <div class="partner-cell">
+        <h3></h3>
+        <img src="assets/img/franchise.png" alt="">
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP5</p>
+        <p>SOLUTIONS_PARTNER_DROPSHIP_SUBP6</p>
+      </div>
+      <div class="partner-cell">
+        <h3></h3>
+        <img src="assets/img/regional.png" alt="">
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+    <div class="footer-placeholder" id="contact"></div>
+    <footer> 
+        <div class="container wrapper">
+            <div class="location">
+                <h4 class="homepage-highlight"><span></span>FOOTERHQ</h4>
+                <p>FOOTER_BLDG</p>
+                <p>FOOTER_RD</p>
+                <p>FOOTER_COUNTRY</p>
+                <div class="contact">
+                    <p><a href="tel: +852 2559 1918"></a></p>
+                    <p><a href="mailto:contact@purecomm.com"></a></p>
+                </div>
+            </div>
+            
+            <div class="footer-info-container">
+                <div class="solutions">
+                    <h4 class="homepage-highlight"></h4>
+                    <ul>
+                        <li><a href="solutions/#click"></a></li>
+                        <li><a href="solutions/#returns"></a></li>
+                        <li><a href="solutions/#aisle"></a></li>
+                        <li><a href="solutions/#store"></a></li>
+                        <li><a href="solutions/#customer"></a></li>
+                        <li><a href="solutions/#partner"></a></li>
+                    </ul>
+                </div>
+        
+                <div class="work">
+                    <h4 class="homepage-highlight"></h4>
+                    <ul>
+                        <li><a href="work/#service"></a></li>
+                        <li><a href="work/#practice"></a></li>
+                        <li><a href="work/#integrations"></a></li>
+                        <li><a href="work/#collaboration"></a></li>
+                        <li><a href="work/#success"></a></li>
+                        <li><a href="work/#values"></a></li>
+                    </ul>
+                    <div class="bottom">
+                        <img src="assets/img/logo-white.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    </main>
+
+    <script type="text/javascript" src="main.min.js"></script>
+    <script type="text/javascript" src="solutions/script.min.js"></script>
+</body>
+
+</html>
