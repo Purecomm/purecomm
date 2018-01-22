@@ -1,0 +1,227 @@
+{
+  "LANGUAGE_CODE": "en",
+  "LANGUAGE_NAME": "English",
+  
+  "NAVIGATION_HOMEPAGE": "Overview",
+
+  "NAVIGATION_SOLUTIONS": "Our Solutions",
+  "NAVIGATION_CLICK_COLLECT": "Click & Collect",
+  "NAVIGATION_STORE_RETURNS": "In-store Returns",
+  "NAVIGATION_ENDLESS_AISLE": "Endless Aisle",
+  "NAVIGATION_STORE_FULFILMENT": "Ship from Store",
+  "NAVIGATION_CUSTOMER_CARE": "Customer Care",
+  "NAVIGATION_PARTNER_FULFILMENT": "Dropship & Partner Fulfilment",
+
+  "NAVIGATION_WORK": "The Way We Work",
+  "NAVIGATION_SOFTWARE_SERVICE": "Software as a Service",
+  "NAVIGATION_BEST_PRACTICE": "Delivering Best Practice",
+  "NAVIGATION_REUSABLE_INTEGRATIONS": "Reusable Integrations",
+  "NAVIGATION_PARTNER_COLLABORATION": "Partner Collaboration", 
+  "NAVIGATION_SHARING_SUCCESS": "Sharing Success", 
+  "NAVIGATION_VALUES": "Living Our Values",
+  
+  "NAVIGATION_CONTACT": "Contact Us",
+
+  "NAVIGATION_EN": "English",
+  "NAVIGATION_ZH_HK": "繁体中文", 
+  "NAVIGATION_JP_JP": "日本語",  
+  "NAVIGATION_KO_KR": "한국어",    
+  "NAVIGATION_ZH_CN": "简体中文", 
+  "NAVIGATION_TH_TH": "ภาษาไทย", 
+
+  "HOME_CAROUSEL_1H": "Omnichannel",
+  "HOME_CAROUSEL_2H":"Order Management",
+  "HOME_CAROUSEL_3H":"for Asia Pacific",
+  "HOME_CAROUSEL_1P": "Purecomm delivers world-class order management, adapted to the individual needs of the local markets in the Asia Pacific region.",
+  "HOME_CAROUSEL_4H": "Creating Retail Fusion", 
+  "HOME_CAROUSEL_5H": "Online and Offline", 
+  "HOME_CAROUSEL_2P": "Purecomm solutions bring digital and traditional retail teams together, driving sales performance for the whole business.",
+  "HOME_CAROUSEL_6H": "Simple on the Outside", 
+  "HOME_CAROUSEL_7H": "Smart on the Inside", 
+  "HOME_CAROUSEL_3P": "Purecomm guides simple workflows that deliver a flawless customer experience.",
+
+  "HOME_BENEFITS_1H1": "Margin",
+  "HOME_BENEFITS_1H2": "Optimization", 
+  "HOME_BENEFITS_1H_IMG": "grocery cart icon",
+  "HOME_BENEFITS_1P1": "Drive full-price sell-through by offering every product through every channel.",
+  "HOME_BENEFITS_1P2": "Reduce returns processing time, and get products back on the shelf as fast as you can.",
+
+  "HOME_BENEFITS_2H1": "Service", 
+  "HOME_BENEFITS_2H2": " Enhancements",
+  "HOME_BENEFITS_2H_IMG": "delivery truck icon",
+  "HOME_BENEFITS_2P1": "Boost online conversion by offering with convenient delivery options.", 
+  "HOME_BENEFITS_2P2":"Drive satisfaction and loyalty by consistently delivering on promise.",
+
+  "HOME_BENEFITS_3H1": "Cost", 
+  "HOME_BENEFITS_3H2": " Reduction",
+  "HOME_BENEFITS_3H_IMG": "dollar sign icon",
+  "HOME_BENEFITS_3P1": "Reduce shipping costs, without sacrificing customer experience.", 
+  "HOME_BENEFITS_3P2": "Improve process efficiency, and free staff to focus on sales and service.", 
+
+  "HOME_SOLUTIONS_1H1": "Solutions", 
+  "HOME_SOLUTIONS_1H2": "that bring",
+  "HOME_SOLUTIONS_1H3": "people together",
+  "HOME_SOLUTIONS_IMG": "Image showing a single view of inventory orders, which connects with points of sale, back of house, distribution centres, and customer care",
+  "HOME_SOLUTIONS_BODY": "Purecomm provides simple tools for store staff, so customers can collect or return their online purchases in the store. An easy fulfilment workflow lets you ship from wherever’s best; either a local store or a high-volume distribution centre. The customer care team have a birds-eye view of everything that’s happening, so can serve the customer with confidence.",
+
+  "SOLUTIONS_DIAGRAM_1H1": "Single view of",
+  "SOLUTIONS_DIAGRAM_1H2": "inventory & orders",
+  "SOLUTIONS_DIAGRAM_1L": "Point of Sale",
+  "SOLUTIONS_DIAGRAM_2L": "Stock Room",
+  "SOLUTIONS_DIAGRAM_3L": "Distribution Centre",
+  "SOLUTIONS_DIAGRAM_4L": "Customer Care",
+
+  "HOME_MAP_1H1": "Delivering", 
+  "HOME_MAP_1H2": "across",
+  "HOME_MAP_1H3": "Asia Pacific",
+  "HOME_MAP_IMG": "Map of Purecomm in different asia pacific countries",
+  "HOME_MAP_BODY": "From Sydney to Seoul and from Bangkok to Beijing, Purecomm connects local retail stores to their brand website. In every corner of Asia, we work in local language, accept local payment, ship with local partners and calculate local taxes; delivering best practice in a way that works.", 
+
+  "HOME_PORTFOLIO_TITLE_1": "A client portfolio", 
+  "HOME_PORTFOLIO_TITLE_2": "that speaks for itself.",
+  "HOME_PORTFOLIO_IMG1": "Toys-R-Us image and logo",
+  "HOME_PORTFOLIO_IMG2": "UGG image and logo",
+  "HOME_PORTFOLIO_IMG3": "Brooks Brothers image and logo",
+  "HOME_PORTFOLIO_IMG4": "Aquila image and logo",
+  "HOME_PORTFOLIO_IMG5": "Samsonite image and logo",
+  "HOME_PORTFOLIO_IMG6": "Forever New image and logo",
+
+  "FOOTERHQ": "Hong Kong Headquarters",
+  "FOOTER_BLDG": "Suite 2402, 24/F, Hong Kong Plaza",
+  "FOOTER_RD": "188 Connaught Road West",
+  "FOOTER_COUNTRY": "Hong Kong", 
+  "FOOTER_TEL": "Tel: +852 2559 0918", 
+  "FOOTER_EMAIL": "Email: contact@purecomm.com",
+  "FOOTER_JOIN_US": "Join Us",
+    
+  "BUTTON_LEARN_MORE": "Learn More",
+
+  "SOLUTIONS_HEADER_1": "Omnichannel Solutions",
+  "SOLUTIONS_HEADER_2": "in Asia Pacific",
+
+  "SOLUTIONS_CLICK_COLLECT_1H1": "Click",
+  "SOLUTIONS_CLICK_COLLECT_1H2": "& Collect",
+  "SOLUTIONS_CLICK_COLLECT_1P": "Direct digitals shoppers to order online and pick up in your store.",
+  "SOLUTIONS_CLICK_COLLECT_2P": "Plug store availability data into the web and connect shop assistants to incoming collection orders.",
+
+  "SOLUTIONS_STORE_RETURNS_1H1": "In-store",
+  "SOLUTIONS_STORE_RETURNS_1H2": "Returns",
+  "SOLUTIONS_STORE_RETURNS_1P": "Welcome your customers back into the store to return or exchange unwanted online purchases.",
+  "SOLUTIONS_STORE_RETURNS_2P": "Get products back on the shelf as quickly as you can.",
+
+  "SOLUTIONS_ENDLESS_AISLE_1H1": "Endless",
+  "SOLUTIONS_ENDLESS_AISLE_1H2": "Aisle",
+  "SOLUTIONS_ENDLESS_AISLE_1P": "Provide an endless selection of products in even the smallest store. Take an order for stock that’s in another store, and save the sale.",
+  "SOLUTIONS_ENDLESS_AISLE_2P": "With a handheld digital lookbook, the sales associate can inspire and guide customers to explore new ranges and new products.",
+
+  "SOLUTIONS_SHIP_FROM_STORE_1H1":"Ship",
+  "SOLUTIONS_SHIP_FROM_STORE_1H2": "from Store",
+  "SOLUTIONS_SHIP_FROM_STORE_1P": "Extend the range of products available online by offering every last size and style, from anywhere you have it.",
+  "SOLUTIONS_SHIP_FROM_STORE_2P": "Purecomm provides a simple and seamless process for store staff to pick, pack, label and ship, and to book a courier collection.",
+
+  "SOLUTIONS_STORE_FULFILMENT_1H1": "Fulfil",
+  "SOLUTIONS_STORE_FULFILMENT_1H2": "from every store",
+  "SOLUTIONS_STORE_FULFILMENT_1P": "Small stores welcome customers to pick up or return their online orders.",
+  "SOLUTIONS_STORE_FULFILMENT_2P": "Orders are pre-packaged and clearly labelled by the warehouse, and sent to the store for collection.",
+  "SOLUTIONS_STORE_FULFILMENT_3P": "Regional stores provide fast services to local customers, with reduced shipping costs.",
+  "SOLUTIONS_STORE_FULFILMENT_4P": "Stores pick and pack a few orders at the start of each day; either for the customers to collect, or to ship.",
+  "SOLUTIONS_STORE_FULFILMENT_5P": "Larger stores become efficient distribution centres, extending the range of products online.",
+  "SOLUTIONS_STORE_FULFILMENT_6P": "Dedicated staff pick several times each day. Fast turnaround supports premium delivery services. ",
+
+  "SOLUTIONS_CUSTOMER_CARE_1H1": "Care",
+  "SOLUTIONS_CUSTOMER_CARE_1H2": "for your customers",
+
+  "SOLUTIONS_CUSTOMER_CARE_SUBH1": "Adjustments & Cancellations",
+  "SOLUTIONS_CUSTOMER_CARE_SUBP1": "It’s sometimes only when the customer gets their confirmation email that they realise what they’ve ordered.",
+  "SOLUTIONS_CUSTOMER_CARE_SUBP2": "Wrong size? Wrong colour? Too many? Or just a change of heart; Purecomm allows your customer to make adjustments to an order, right up to the moment it goes out the door.",
+
+  "SOLUTIONS_CUSTOMER_CARE_SUBH2": "Discounts & Appeasements",
+  "SOLUTIONS_CUSTOMER_CARE_SUBP3": "Don’t leave your customer feeling they have missed out. If they forgot to enter a promotion code online, or just missed the the end-of-season sale; don’t ask them to place a new order, just enable the discount.",
+  "SOLUTIONS_CUSTOMER_CARE_SUBP4": "And if you ever need to apologise, Purecomm lets you refund shipping fees, provide a partial refund, or issue a gift certificate.",
+
+  "SOLUTIONS_CUSTOMER_CARE_SUBH3": "Silent Fraud Control",
+  "SOLUTIONS_CUSTOMER_CARE_SUBP5": "There’s active online fraud, and it’s important to screen for it - but that doesn’t mean you need to keep your customer waiting.",
+  "SOLUTIONS_CUSTOMER_CARE_SUBP6": "Purecomm gets started on the order fulfilment, even whilst a fraud review is underway. As soon as an order is approved, it’s ready to go out of the door, within the normal delivery times.",
+
+  "SOLUTIONS_CUSTOMER_CARE_SUBH4": "Customer Self-Service",
+  "SOLUTIONS_CUSTOMER_CARE_SUBP7": "Reduce the load on your customer care team, and deliver faster service to your customer.",
+  "SOLUTIONS_CUSTOMER_CARE_SUBP8": "With Purecomm, the customer can track their own order, and make their own adjustments; and workflows for customer care can be automated.",
+
+  "SOLUTIONS_PARTNER_DROPSHIP_1H1": "Dropship", 
+  "SOLUTIONS_PARTNER_DROPSHIP_1H2": "and Partner Fulfilment", 
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBH1": "Regional consolidation",
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBP1": "Extend your online product selection across Asia Pacific with a centralised pool of inventory in Hong Kong. Our 3PL partners can manage the process end-to-end.",
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBP2": "Purecomm generates customs documentation for the cross-border shipment, and the customer just sees the local market landed price, including all tax and duty. Everything else is invisible.",
+
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBH2": "Vendor Dropship", 
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBP3": "Purecomm provides a dedicated shipping console for your vendor to use in their warehouse, and sends requests to them when customers place an order.",
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBP4": "Everything arrives to your customer with branded packaging and paperwork, and the whole process is trackable and visible to your customer care team in the Purecomm console.",
+
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBH3": "Franchise Collaboration", 
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBP5": "Rethink the conflict between the online brand website and the local market franchise partner.",
+  "SOLUTIONS_PARTNER_DROPSHIP_SUBP6": "With Purecomm, the sales associate can introduce a customer to the flagship online store, knowing that an order placed online will be routed to their store for shipping, and credited to them for sales commission.",
+
+  "WORK_HEADER_1": "Simple. Reliable. Collaborative.",
+
+  "WORK_SOFTWARE_SERVICE_1H1": "Software",
+  "WORK_SOFTWARE_SERVICE_1H2": "as a Service",
+
+  "WORK_SERVICE_1H": "Starter",
+  "WORK_SERVICE_1P": "includes",
+  "WORK_PRICE_1P": "orders/year",
+  "WORK_PRICE_3P": "stores",
+
+  "TEAM_L1": "Click-and-collect",
+  "TEAM_L2": "Return-to-store",
+  "TEAM_L3": "Adjustments & cancellations",
+  "TEAM_L4": "Multi-courier shipping",
+
+  "WORK_FREE_TRIAL": "Free Trial", 
+  "WORK_BUY_NOW": "Buy Now",
+
+  "WORK_SERVICE_2H": "Standard", 
+  "WORK_PROFESSIONAL_INCLUDES": "Starter, plus...",
+  "PROFESSIONAL_L1": "Store fulfilment",
+  "PROFESSIONAL_L2": "Endless aisle",
+  "PROFESSIONAL_L3": "Discounts and appeasements", 
+  "PROFESSIONAL_L4": "Marketplace integration",
+
+  "WORK_SERVICE_3H": "Enterprise",
+  "WORK_ENTERPRISE_INCLUDES": "Standard, plus...",
+  "ENTERPRISE_L1": "Multi-brand, multi-currency", 
+  "ENTERPRISE_L2": "Dropship and partner fulfilment",
+  "ENTERPRISE_L3": "Silent fraud control",
+  "ENTERPRISE_L4": "Customer self-service",
+
+  "WORK_BEST_PRACTICE_1H1": "Delivering",
+  "WORK_BEST_PRACTICE_1H2": " Best Practice",
+  "WORK_BEST_PRACTICE_1P": "Every insight from every customer is baked into the Purecomm platform for the future. After 10 years working for the most successful omni-channel brands in the region, our out-of-the-box workflows are simple and reliable.",
+  "WORK_BEST_PRACTICE_2P": "Purecomm provides the benchmarks and KPIs to prove it. We help to drive customer-centric behaviour across the business, and to measure the celebrate success.",
+  
+  "WORK_REUSABLE_INTEGRATIONS_1H1": "Reusable", 
+  "WORK_REUSABLE_INTEGRATIONS_1H2": "Integrations",
+  "WORK_REUSABLE_INTEGRATIONS_1P": "The Order Management system sits at the heart of enterprise architecture. We’ve already integrated with many different systems, and whilst no two enterprise architectures are the same, we aim to save time and effort by reusing integrations we’ve already built.",
+  "WORK_DIAGRAM_1H": "Transactions & Events",
+  "WORK_DIAGRAM_1L": "Retail Systems",
+  "WORK_DIAGRAM_2L": "Payment Gateways",
+  "WORK_DIAGRAM_3L": "Email Marketing", 
+  "WORK_DIAGRAM_4L": "Customer Data",
+
+  "WORK_PARTNER_COLLABORATION_1H1": "Partner",
+  "WORK_PARTNER_COLLABORATION_1H2": "Collaboration", 
+  "WORK_PARTNER_COLLABORATION_1P": "Purecomm works closely with leading System Integration Partners across Asia Pacific, to provide on-the-ground support in each market, from people who are already familiar with your systems.", 
+
+  "WORK_SHARING_SUCCESS_1H1": "Sharing", 
+  "WORK_SHARING_SUCCESS_1H2": "Success",
+  "WORK_SHARING_SUCCESS_1P": "Join our client community, and gain insights from some of the most successful omnichannel retail brands.", 
+  "WORK_SHARING_SUCCESS_2P": "Your success is our success, and our specialist omnichannel consultants will be with you every step of the way.", 
+
+  "WORK_VALUES_1H1": "Living", 
+  "WORK_VALUES_1H2": "Our Values",
+  "WORK_VALUES_1P": "The way we do work is simple, reliable and collaborative.", 
+  "WORK_VALUES_2P": "We build simple solutions that are fast and easy to use.",
+  "WORK_VALUES_3P": "When we make a promise, we keep it. If we make a mistake, we learn from it.", 
+  "WORK_VALUES_4P1": "We’re always looking for confident professionals who share our values. If you’re looking for a new challenge, ", 
+  "WORK_VALUES_4P2": "join us!"
+
+}
