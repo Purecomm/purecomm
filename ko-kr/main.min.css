@@ -1,200 +1,278 @@
 body {
   margin: 0; }
 
-  article, aside, details, figcaption, figure, footer, header, hgroup, nav,
-  section, summary {
-    display: block; }
+  body.th-th nav ul li {
+    font-size: 14px; }
+    @media (max-width: 960px) {
+      body.th-th footer {
+        padding-top: 20px;
+        padding-bottom: 20px;   }
+        body.th-th footer .container {
+          flex-direction: column;   }
+          body.th-th footer .container .location h4 {
+            margin-bottom: 5px;   }
+          body.th-th footer .container .footer-info-container {
+            flex-direction: column;   }
+            body.th-th footer .container .footer-info-container .work ul {
+              padding-bottom: 20px;   }
+            body.th-th footer .container .footer-info-container .solutions {
+              margin-right: 0px;   }
+        body.th-th footer .bottom {
+          position: relative;   }
+          body.th-th footer .bottom img {
+            display: inline-block;
+            position: absolute;
+            right: 30px;
+            bottom: 0px;
+            margin-top: 0px;
+            width: 180px;   }
+        body.th-th footer h4 {
+          display: inline-block;
+          margin-top: 0px;
+          margin-bottom: 0px;   }
+}
 
-    audio, canvas, video {
-      display: inline-block; }
+body.jp-jp footer .container a {
+  font-size: 14px; }
+  body.jp-jp footer .container a.mobile {
+    font-size: 16px; }
+    body.jp-jp footer .container a.email {
+      font-size: 16px; }
+      @media (max-width: 1000px) {
+        body.jp-jp footer .container .footer-info-container .solutions {
+          margin-right: 55px;   }
+}
+@media (max-width: 960px) {
+  body.jp-jp footer {
+    padding-top: 20px;
+    padding-bottom: 20px;   }
+    body.jp-jp footer .container {
+      flex-direction: column;   }
+      body.jp-jp footer .container .location h4 {
+        margin-bottom: 5px;   }
+      body.jp-jp footer .container .footer-info-container {
+        flex-direction: column;   }
+        body.jp-jp footer .container .footer-info-container .work ul {
+          padding-bottom: 20px;   }
+        body.jp-jp footer .container .footer-info-container .solutions {
+          margin-right: 0px;   }
+    body.jp-jp footer .bottom {
+      position: relative;   }
+      body.jp-jp footer .bottom img {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        bottom: 0px;
+        margin-top: 0px;
+        width: 180px;   }
+    body.jp-jp footer h4 {
+      display: inline-block;
+      margin-top: 0px;
+      margin-bottom: 0px;   }
+}
+@media (max-width: 360px) {
+  body.jp-jp footer .container a {
+    font-size: 12px;   }
+    body.jp-jp footer .container a.mobile {
+      font-size: 16px;   }
+      body.jp-jp footer .container a.email {
+        font-size: 16px;   }
+}
 
-      audio:not([controls]) {
-        display: none;
-        height: 0; }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav,
+section, summary {
+  display: block; }
 
-        [hidden] {
-          display: none; }
+  audio, canvas, video {
+    display: inline-block; }
 
-          html {
-            font-family: sans-serif;
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%; }
+    audio:not([controls]) {
+      display: none;
+      height: 0; }
 
-            a:focus {
-              outline: thin dotted; }
+      [hidden] {
+        display: none; }
 
-              a:active, a:hover {
-                outline: 0; }
+        html {
+          font-family: sans-serif;
+          -webkit-text-size-adjust: 100%;
+          -ms-text-size-adjust: 100%; }
 
-                h1 {
-                  font-size: 2em; }
+          a:focus {
+            outline: thin dotted; }
 
-                  abbr[title] {
-                    border-bottom: 1px dotted; }
+            a:active, a:hover {
+              outline: 0; }
 
-                    b, strong {
-                      font-weight: 700; }
+              h1 {
+                font-size: 2em; }
 
-                      dfn {
-                        font-style: italic; }
+                abbr[title] {
+                  border-bottom: 1px dotted; }
 
-                        mark {
-                          background: #ff0;
-                          color: #000; }
+                  b, strong {
+                    font-weight: 700; }
 
-                          code, kbd, pre, samp {
-                            font-family: monospace, serif;
-                            font-size: 1em; }
+                    dfn {
+                      font-style: italic; }
 
-                            pre {
-                              white-space: pre-wrap;
-                              word-wrap: break-word; }
+                      mark {
+                        background: #ff0;
+                        color: #000; }
 
-                              q {
-                                quotes: \201C \201D \2018 \2019; }
+                        code, kbd, pre, samp {
+                          font-family: monospace, serif;
+                          font-size: 1em; }
 
-                                small {
-                                  font-size: 80%; }
+                          pre {
+                            white-space: pre-wrap;
+                            word-wrap: break-word; }
 
-                                  sub, sup {
-                                    font-size: 75%;
-                                    line-height: 0;
-                                    position: relative;
-                                    vertical-align: baseline; }
+                            q {
+                              quotes: \201C \201D \2018 \2019; }
 
-                                    sup {
-                                      top: -0.5em; }
+                              small {
+                                font-size: 80%; }
 
-                                      sub {
-                                        bottom: -0.25em; }
+                                sub, sup {
+                                  font-size: 75%;
+                                  line-height: 0;
+                                  position: relative;
+                                  vertical-align: baseline; }
 
-                                        img {
-                                          border: 0; }
+                                  sup {
+                                    top: -0.5em; }
 
-                                          svg:not(:root) {
-                                            overflow: hidden; }
+                                    sub {
+                                      bottom: -0.25em; }
 
-                                            fieldset {
-                                              border: 1px solid silver;
-                                              margin: 0 2px;
-                                              padding: 0.35em 0.625em 0.75em; }
+                                      img {
+                                        border: 0; }
 
-                                              button, input, select, textarea {
-                                                font-family: inherit;
-                                                font-size: 100%;
-                                                margin: 0; }
+                                        svg:not(:root) {
+                                          overflow: hidden; }
 
-                                                button, input {
-                                                  line-height: normal; }
+                                          fieldset {
+                                            border: 1px solid silver;
+                                            margin: 0 2px;
+                                            padding: 0.35em 0.625em 0.75em; }
 
-                                                  button, html input[type=button], input[type=reset], input[type=submit] {
-                                                    -webkit-appearance: button;
-                                                    cursor: pointer; }
+                                            button, input, select, textarea {
+                                              font-family: inherit;
+                                              font-size: 100%;
+                                              margin: 0; }
 
-                                                    button[disabled], input[disabled] {
-                                                      cursor: default; }
+                                              button, input {
+                                                line-height: normal; }
 
-                                                      input[type=checkbox], input[type=radio] {
-                                                        box-sizing: border-box;
-                                                        padding: 0; }
+                                                button, html input[type=button], input[type=reset], input[type=submit] {
+                                                  -webkit-appearance: button;
+                                                  cursor: pointer; }
 
-                                                        input[type=search] {
-                                                          -webkit-appearance: textfield;
-                                                          -moz-box-sizing: content-box;
-                                                          -webkit-box-sizing: content-box;
-                                                          box-sizing: content-box; }
+                                                  button[disabled], input[disabled] {
+                                                    cursor: default; }
 
-                                                          input[type=search]::-webkit-search-cancel-button,
-                                                          input[type=search]::-webkit-search-decoration {
-                                                            -webkit-appearance: none; }
+                                                    input[type=checkbox], input[type=radio] {
+                                                      box-sizing: border-box;
+                                                      padding: 0; }
 
-                                                            textarea {
-                                                              overflow: auto;
-                                                              vertical-align: top; }
+                                                      input[type=search] {
+                                                        -webkit-appearance: textfield;
+                                                        -moz-box-sizing: content-box;
+                                                        -webkit-box-sizing: content-box;
+                                                        box-sizing: content-box; }
 
-                                                              table {
-                                                                border-collapse: collapse;
-                                                                border-spacing: 0; }
+                                                        input[type=search]::-webkit-search-cancel-button,
+                                                        input[type=search]::-webkit-search-decoration {
+                                                          -webkit-appearance: none; }
 
-                                                                body, figure {
-                                                                  margin: 0; }
+                                                          textarea {
+                                                            overflow: auto;
+                                                            vertical-align: top; }
 
-                                                                  legend, button::-moz-focus-inner, input::-moz-focus-inner {
-                                                                    border: 0;
-                                                                    padding: 0; }
+                                                            table {
+                                                              border-collapse: collapse;
+                                                              border-spacing: 0; }
 
-                                                                    .clearfix:after {
-                                                                      visibility: hidden;
-                                                                      display: block;
-                                                                      font-size: 0;
-                                                                      content: " ";
-                                                                      clear: both;
-                                                                      height: 0; }
+                                                              body, figure {
+                                                                margin: 0; }
 
-                                                                      * {
-                                                                        -moz-box-sizing: border-box;
-                                                                        -webkit-box-sizing: border-box;
-                                                                        box-sizing: border-box; }
+                                                                legend, button::-moz-focus-inner, input::-moz-focus-inner {
+                                                                  border: 0;
+                                                                  padding: 0; }
 
-                                                                        p, a, h1, h2, h3, h4 {
-                                                                          font-family: 'Source Sans Pro', sans-serif; }
+                                                                  .clearfix:after {
+                                                                    visibility: hidden;
+                                                                    display: block;
+                                                                    font-size: 0;
+                                                                    content: " ";
+                                                                    clear: both;
+                                                                    height: 0; }
 
-                                                                          a:active {
+                                                                    * {
+                                                                      -moz-box-sizing: border-box;
+                                                                      -webkit-box-sizing: border-box;
+                                                                      box-sizing: border-box; }
+
+                                                                      p, a, h1, h2, h3, h4 {
+                                                                        font-family: 'Source Sans Pro', sans-serif; }
+
+                                                                        a:active {
+                                                                          outline: 0; }
+
+                                                                          a:focus {
                                                                             outline: 0; }
 
-                                                                            a:focus {
-                                                                              outline: 0; }
+                                                                            .main {
+                                                                              position: absolute;
+                                                                              top: 70px;
+                                                                              left: 0;
+                                                                              right: 0; }
 
-                                                                              .main {
-                                                                                position: absolute;
-                                                                                top: 70px;
-                                                                                left: 0;
-                                                                                right: 0; }
+                                                                              p {
+                                                                                color: #7f8c8D;
+                                                                                letter-spacing: 1px;
+                                                                                font-weight: 300;
+                                                                                font-size: 18px;
+                                                                                line-height: 1.5rem; }
 
-                                                                                p {
-                                                                                  color: #7f8c8D;
-                                                                                  letter-spacing: 1px;
-                                                                                  font-weight: 300;
-                                                                                  font-size: 18px;
-                                                                                  line-height: 1.5rem; }
+                                                                                .wrapper {
+                                                                                  max-width: 1170px;
+                                                                                  margin: 0 auto;
+                                                                                  padding-left: 3%;
+                                                                                  padding-right: 3%; }
 
-                                                                                  .wrapper {
+                                                                                  .nav-wrapper {
                                                                                     max-width: 1170px;
                                                                                     margin: 0 auto;
                                                                                     padding-left: 3%;
                                                                                     padding-right: 3%; }
 
-                                                                                    .nav-wrapper {
+                                                                                    .brand-wrapper {
                                                                                       max-width: 1170px;
                                                                                       margin: 0 auto;
-                                                                                      padding-left: 3%;
-                                                                                      padding-right: 3%; }
+                                                                                      padding-left: 0%; }
 
-                                                                                      .brand-wrapper {
-                                                                                        max-width: 1170px;
-                                                                                        margin: 0 auto;
-                                                                                        padding-left: 0%; }
+                                                                                      .wrapper-paragraph {
+                                                                                        max-width: 700px;
+                                                                                        margin: 0 auto; }
 
-                                                                                        .wrapper-paragraph {
-                                                                                          max-width: 700px;
-                                                                                          margin: 0 auto; }
+                                                                                        .placeholder {
+                                                                                          padding-top: 90px;
+                                                                                          margin-top: -90px; }
 
-                                                                                          .placeholder {
-                                                                                            padding-top: 90px;
-                                                                                            margin-top: -90px; }
+                                                                                          .footer-placeholder {
+                                                                                            padding-top: 68px;
+                                                                                            margin-top: -68px; }
 
-                                                                                            .footer-placeholder {
-                                                                                              padding-top: 68px;
-                                                                                              margin-top: -68px; }
+                                                                                            .placeholder-homepage {
+                                                                                              margin-top: -50px;
+                                                                                              padding-top: 50px; }
 
-                                                                                              .placeholder-homepage {
-                                                                                                margin-top: -50px;
-                                                                                                padding-top: 50px; }
-
-                                                                                                @media (max-width: 800px) {
-                                                                                                  .placeholder {
-                                                                                                    padding-top: 70px;
-                                                                                                    margin-top: -70px;   }
+                                                                                              @media (max-width: 800px) {
+                                                                                                .placeholder {
+                                                                                                  padding-top: 70px;
+                                                                                                  margin-top: -70px;   }
 }
 
 h2 {
@@ -336,22 +414,24 @@ nav a.languages {
     display: block;   }
     .mobile-homepage {
       display: block;   }
-      nav {
-        width: 100%;
-        padding: 70px 0 0px;   }
-        nav ul {
-          display: none;   }
-          nav ul li {
-            float: none;
-            z-index: 99;   }
-            nav ul li a {
-              padding: 15px;
-              line-height: 20px;
-              background: #4a4a4a;   }
-              nav ul li a:hover {
-                color: white;   }
-            nav ul li ul li a {
-              font-weight: 300;   }
+      main {
+        padding-top: 70px;   }
+        nav {
+          width: 100%;
+          padding: 70px 0 0px;   }
+          nav ul {
+            display: none;   }
+            nav ul li {
+              float: none;
+              z-index: 99;   }
+              nav ul li a {
+                padding: 15px;
+                line-height: 20px;
+                background: #4a4a4a;   }
+                nav ul li a:hover {
+                  color: white;   }
+              nav ul li ul li a {
+                font-weight: 300;   }
   .nav-dropdown {
     position: static;   }
     .nav-wrapper {

@@ -1,3 +1,41 @@
+@media (min-width: 701px) {
+  body.jp-jp h1.first-header {
+    width: 75%;   }
+}
+@media (max-width: 462px) {
+  body.jp-jp .diagram-container .diagram-list ul {
+    line-height: 3;   }
+    body.jp-jp .diagram-container .diagram-list li.line-break {
+      white-space: normal;
+      line-height: 3;   }
+}
+@media (max-width: 420px) {
+  body.jp-jp .diagram-container .diagram-list ul {
+    line-height: 1.6;   }
+    body.jp-jp .diagram-container .diagram-list li.line-break {
+      line-height: 1.6;   }
+}
+@media (max-width: 400px) {
+  body.jp-jp .diagram-container .diagram-list ul {
+    line-height: 1.4;   }
+    body.jp-jp .diagram-container .diagram-list ul li {
+      padding-top: 8px;
+      padding-bottom: 8px;   }
+  body.jp-jp .diagram-container .diagram-list li.line-break {
+    line-height: 1.4;   }
+}
+
+body.th-th .section1 .main-benefits .benefits-container h3 {
+  height: 70px; }
+  @media (min-width: 701px) {
+    body.th-th h1.first-header {
+      width: 75%;   }
+}
+@media (max-width: 800px) {
+  body.th-th .section1 .main-benefits .benefits-container h3 {
+    height: 70px;   }
+}
+
 .main-gallery {
   height: 70vh;
   margin-bottom: 2px; }
@@ -289,6 +327,12 @@ div.retail-image.left-margin {
     .diagram-container .diagram-list ul li {
       padding-top: 10px;
       padding-bottom: 10px;   }
+}
+
+@media (max-width: 380px) {
+  .diagram-list ul li {
+    padding-top: 7px;
+    padding-bottom: 7px;   }
 }
 
 @media (max-width: 340px) {
