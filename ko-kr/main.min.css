@@ -454,7 +454,10 @@ nav a.languages {
   ul.nav-list {
     position: absolute;
     width: 100%;
-    text-align: center;   }
+    text-align: center;
+    overflow-y: scroll;
+    height: 530px;
+    -webkit-overflow-scrolling: touch;   }
     .nav-dropdown.set-width {
       max-width: 100%;   }
 }
