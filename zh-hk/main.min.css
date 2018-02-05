@@ -414,7 +414,7 @@ nav a.languages {
     display: block;   }
     .mobile-homepage {
       display: block;   }
-      main {
+      .main-padding {
         padding-top: 70px;   }
         nav {
           width: 100%;
