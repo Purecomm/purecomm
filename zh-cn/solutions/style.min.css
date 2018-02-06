@@ -53,7 +53,8 @@
         text-align: center;
         background: #494949;
         overflow: auto;
-        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.3);   }
+        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.3);
+        margin-top: -2px;   }
         .solutions-header h1 {
           color: white;
           font-weight: 300;
