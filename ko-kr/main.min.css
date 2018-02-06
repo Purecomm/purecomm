@@ -510,6 +510,16 @@ nav a.languages {
               #nav-toggle.active span:after {
                 transform: rotate(-45deg); }
 
+@media (max-width: 480px) {
+  .brand img {
+    width: 120px;   }
+}
+
+@media (max-width: 420px) {
+  .brand img {
+    width: 100px;   }
+}
+
 h4.homepage-highlight {
   color: #efbf33; }
 
