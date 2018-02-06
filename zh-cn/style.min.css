@@ -1,6 +1,12 @@
 @media (min-width: 701px) {
-  body.jp-jp h1.first-header {
-    width: 75%;   }
+  body.jp-jp .gallery-cell h1.first-header {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    padding-left: 10%;
+    padding-right: 10%;   }
 }
 @media (max-width: 462px) {
   body.jp-jp .diagram-container .diagram-list ul {
@@ -29,7 +35,8 @@ body.th-th .section1 .main-benefits .benefits-container h3 {
   height: 70px; }
   @media (min-width: 701px) {
     body.th-th h1.first-header {
-      width: 75%;   }
+      width: 75%;
+      text-align: center;   }
 }
 @media (max-width: 800px) {
   body.th-th .section1 .main-benefits .benefits-container h3 {

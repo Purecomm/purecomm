@@ -315,7 +315,7 @@ a.active {
   .navigation {
     background: linear-gradient(to bottom, black, #4a4a4a);
     position: fixed;
-    z-index: 99;
+    z-index: 1000;
     width: 100%; }
 
     img.flag {
@@ -389,7 +389,6 @@ nav a.languages {
         position: absolute;
         top: 0;
         right: 0;
-        background: linear-gradient(to bottom, black, #4a4a4a);
         height: 70px;
         width: 70px; }
 
@@ -415,10 +414,11 @@ nav a.languages {
     .mobile-homepage {
       display: block;   }
       .main-padding {
-        padding-top: 70px;   }
+        padding-top: 69px;   }
         nav {
           width: 100%;
-          padding: 70px 0 0px;   }
+          padding: 70px 0 0px;
+          margin-bottom: -1px;   }
           nav ul {
             display: none;   }
             nav ul li {
@@ -427,19 +427,22 @@ nav a.languages {
               nav ul li a {
                 padding: 15px;
                 line-height: 20px;
-                background: #4a4a4a;   }
+                background: #4a4a4a;
+                margin-top: -1px;   }
                 nav ul li a:hover {
                   color: white;   }
               nav ul li ul li a {
                 font-weight: 300;
-                line-height: 15px;   }
+                line-height: 15px;
+                margin-top: -1px;   }
   .nav-dropdown {
     position: static;   }
     .nav-wrapper {
       padding-left: 0%;   }
       .brand-wrapper {
         padding-left: 3%;
-        padding-right: 3%;   }
+        padding-right: 3%;
+        z-index: 1;   }
         nav a.languages {
           margin-right: auto;
           text-align: center;   }
@@ -452,14 +455,31 @@ nav a.languages {
 
 @media (max-width: 800px) {
   ul.nav-list {
-    position: absolute;
+    position: fixed;
     width: 100%;
     text-align: center;
-    overflow-y: scroll;
-    height: 530px;
-    -webkit-overflow-scrolling: touch;   }
-    .nav-dropdown.set-width {
-      max-width: 100%;   }
+    overflow: auto;
+    height: 100%;
+    max-height: 100%;
+    top: 0;   }
+    .nav-dropdown {
+      max-width: 100%;
+      overflow-y: auto;
+      margin-top: -1px;   }
+      .nav-dropdown.set-width {
+        max-width: 100%;
+        overflow-y: auto;   }
+        .nav-dropdown.set-width.items {
+          max-width: 100%;
+          overflow-y: auto;   }
+          .mobile-nav-overlay {
+            top: 0;
+            z-index: 999;
+            width: 100%;   }
+            .active-overlay {
+              position: fixed;
+              height: 100%;
+              background: rgba(0, 0, 0, 0.7);   }
 }
 
 #nav-toggle {
