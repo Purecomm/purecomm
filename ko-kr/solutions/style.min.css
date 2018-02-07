@@ -176,6 +176,17 @@
         text-align: left;   }
 }
 
+.dropship-img {
+  position: relative;
+  padding-bottom: 93%;
+  height: 0;
+  overflow: hidden; }
+  .dropship-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; }
+
 .partner-dropship {
   padding-top: 1%;
   padding-bottom: 5%; }
@@ -208,19 +219,30 @@
         width: 50%;   }
         .partner-container .partner-cell p {
           text-align: left;   }
+  .dropship-img {
+    padding-bottom: 48%;   }
+    .dropship-img img {
+      right: 0;
+      margin: 0 auto;   }
 }
 
 @media (max-width: 650px) {
   .partner-cell img {
     width: 60% !important;   }
+    .dropship-img {
+      padding-bottom: 56%;   }
 }
 
 @media (max-width: 500px) {
   .partner-cell img {
     width: 70% !important;   }
+    .dropship-img {
+      padding-bottom: 65%;   }
 }
 
 @media (max-width: 420px) {
   .partner-cell img {
     width: 100% !important;   }
+    .dropship-img {
+      padding-bottom: 93%;   }
 }
